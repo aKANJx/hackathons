@@ -1,0 +1,4 @@
+module CNIOSHA1 {
+    umbrella "/Users/akanj/Projects/Lastick/lastick-api/.build/checkouts/swift-nio.git--1669239082126977134/Sources/CNIOSHA1/include"
+    export *
+}

@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FoodKids' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FoodKids
+  pod 'TagListView', '~> 1.0'
+  pod 'FloatRatingView', '~> 2.0.0'
+  pod 'KRActivityIndicatorView', '~> 2.1'
+  pod 'lottie-ios'
+  
+  target 'FoodKidsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FoodKidsUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

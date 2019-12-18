@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.23.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dm6-Fk-r5Y">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Car Dash View Controller-->
+        <scene sceneID="CPo-Ae-z7K">
+            <objects>
+                <viewController id="dm6-Fk-r5Y" customClass="CarDashViewController" customModule="Torq" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fcH-5t-ysB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xmp-oY-6Gd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBm-t7-WHM">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icons8-cancel-filled-100"/>
+                                <connections>
+                                    <action selector="closePressed:" destination="dm6-Fk-r5Y" eventType="touchUpInside" id="Ond-Ow-xHE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ChG-xE-lLc" firstAttribute="bottom" secondItem="Xmp-oY-6Gd" secondAttribute="bottom" id="Quq-ag-G7b"/>
+                            <constraint firstItem="ChG-xE-lLc" firstAttribute="top" secondItem="Xmp-oY-6Gd" secondAttribute="top" constant="20" id="mbF-lm-w4k"/>
+                            <constraint firstItem="ChG-xE-lLc" firstAttribute="trailing" secondItem="Xmp-oY-6Gd" secondAttribute="trailing" id="vhK-4a-RET"/>
+                            <constraint firstItem="Xmp-oY-6Gd" firstAttribute="leading" secondItem="ChG-xE-lLc" secondAttribute="leading" id="vzY-Vu-CWb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ChG-xE-lLc"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="Xmp-oY-6Gd" id="K3D-Mv-J9C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ada-vW-I1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="214.4021739130435"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-cancel-filled-100" width="75" height="75"/>
+    </resources>
+</document>

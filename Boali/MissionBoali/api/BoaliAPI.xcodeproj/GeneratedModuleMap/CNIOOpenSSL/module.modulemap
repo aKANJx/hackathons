@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/akanj/Downloads/BoaliAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include"
+    export *
+}

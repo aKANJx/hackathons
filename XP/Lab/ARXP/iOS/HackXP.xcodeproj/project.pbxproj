@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		574F4A3922D08BC600443D7D /* moneyInvestment.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 574F4A3822D08BC600443D7D /* moneyInvestment.scnassets */; };
+		574F4A3E22D08BE900443D7D /* PBRMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F4A3A22D08BE800443D7D /* PBRMaterial.swift */; };
+		574F4A3F22D08BE900443D7D /* CollisionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F4A3B22D08BE800443D7D /* CollisionCategory.swift */; };
+		574F4A4022D08BE900443D7D /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F4A3C22D08BE800443D7D /* Money.swift */; };
+		574F4A4122D08BE900443D7D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F4A3D22D08BE800443D7D /* Plane.swift */; };
+		574F4A4322D08C1800443D7D /* MoneyInvestmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F4A4222D08C1800443D7D /* MoneyInvestmentViewController.swift */; };
+		574F4A4822D0AA5E00443D7D /* Fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 574F4A4722D0A93500443D7D /* Fire.scnp */; };
+		574F4A4922D0AA7500443D7D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 574F4A4622D0A93500443D7D /* spark.png */; };
+		C0121B8822D083B1004EE94A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C0121B8722D083B0004EE94A /* README.md */; };
+		C0121B8A22D083C2004EE94A /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C0121B8922D083C2004EE94A /* Inceptionv3.mlmodel */; };
+		C0121B8E22D083EE004EE94A /* ARFaceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0121B8B22D083EE004EE94A /* ARFaceNode.swift */; };
+		C0121B8F22D083EE004EE94A /* ARFaceSimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0121B8C22D083EE004EE94A /* ARFaceSimpleViewController.swift */; };
+		C0121B9022D083EE004EE94A /* ARFaceSimple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0121B8D22D083EE004EE94A /* ARFaceSimple.storyboard */; };
+		C0121B9222D0848B004EE94A /* TrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0121B9122D0848B004EE94A /* TrackingState.swift */; };
+		C0121B9422D08644004EE94A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0121B9322D08644004EE94A /* RoundedButton.swift */; };
+		C042CAF422D0492600838227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042CAF322D0492600838227 /* AppDelegate.swift */; };
+		C042CAF822D0492600838227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042CAF722D0492600838227 /* ViewController.swift */; };
+		C042CAFB22D0492600838227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C042CAF922D0492600838227 /* Main.storyboard */; };
+		C042CAFD22D0492700838227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C042CAFC22D0492700838227 /* Assets.xcassets */; };
+		C042CB0022D0492700838227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C042CAFE22D0492700838227 /* LaunchScreen.storyboard */; };
+		C0BA116622D09BCA00CD99DA /* MoneyInvestment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BA116522D09BCA00CD99DA /* MoneyInvestment.storyboard */; };
+		F7872A8022D04C6600BEC57A /* MoneyAirplaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7872A7F22D04C6600BEC57A /* MoneyAirplaneViewController.swift */; };
+		F7872A8222D04CC000BEC57A /* MoneyAirplane.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7872A8122D04CC000BEC57A /* MoneyAirplane.storyboard */; };
+		F7872A8422D0511D00BEC57A /* silvio.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F7872A8322D0511D00BEC57A /* silvio.scnassets */; };
+		F7872A8D22D0589C00BEC57A /* Silvio+Santos+hawaii.skp in Resources */ = {isa = PBXBuildFile; fileRef = F7872A8C22D0589C00BEC57A /* Silvio+Santos+hawaii.skp */; };
+		F7872A8F22D05E9E00BEC57A /* silvio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7872A8E22D05E9E00BEC57A /* silvio.mp3 */; };
+		F7872A9122D05EBF00BEC57A /* SilvioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7872A9022D05EBF00BEC57A /* SilvioPlayer.swift */; };
+		F7872A9322D0670300BEC57A /* silvo.png in Resources */ = {isa = PBXBuildFile; fileRef = F7872A9222D0670300BEC57A /* silvo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		574F4A3822D08BC600443D7D /* moneyInvestment.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = moneyInvestment.scnassets; sourceTree = "<group>"; };
+		574F4A3A22D08BE800443D7D /* PBRMaterial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBRMaterial.swift; sourceTree = "<group>"; };
+		574F4A3B22D08BE800443D7D /* CollisionCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionCategory.swift; sourceTree = "<group>"; };
+		574F4A3C22D08BE800443D7D /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		574F4A3D22D08BE800443D7D /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		574F4A4222D08C1800443D7D /* MoneyInvestmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyInvestmentViewController.swift; sourceTree = "<group>"; };
+		574F4A4622D0A93500443D7D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		574F4A4722D0A93500443D7D /* Fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Fire.scnp; sourceTree = "<group>"; };
+		C0121B8722D083B0004EE94A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C0121B8922D083C2004EE94A /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		C0121B8B22D083EE004EE94A /* ARFaceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARFaceNode.swift; sourceTree = "<group>"; };
+		C0121B8C22D083EE004EE94A /* ARFaceSimpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARFaceSimpleViewController.swift; sourceTree = "<group>"; };
+		C0121B8D22D083EE004EE94A /* ARFaceSimple.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ARFaceSimple.storyboard; sourceTree = "<group>"; };
+		C0121B9122D0848B004EE94A /* TrackingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingState.swift; sourceTree = "<group>"; };
+		C0121B9322D08644004EE94A /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		C042CAF022D0492600838227 /* HackXP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackXP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C042CAF322D0492600838227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C042CAF722D0492600838227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C042CAFA22D0492600838227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C042CAFC22D0492700838227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C042CAFF22D0492700838227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C042CB0122D0492700838227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BA116522D09BCA00CD99DA /* MoneyInvestment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MoneyInvestment.storyboard; sourceTree = "<group>"; };
+		F7872A7F22D04C6600BEC57A /* MoneyAirplaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyAirplaneViewController.swift; sourceTree = "<group>"; };
+		F7872A8122D04CC000BEC57A /* MoneyAirplane.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MoneyAirplane.storyboard; sourceTree = "<group>"; };
+		F7872A8322D0511D00BEC57A /* silvio.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = silvio.scnassets; path = HackXP/silvio.scnassets; sourceTree = SOURCE_ROOT; };
+		F7872A8C22D0589C00BEC57A /* Silvio+Santos+hawaii.skp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Silvio+Santos+hawaii.skp"; sourceTree = "<group>"; };
+		F7872A8E22D05E9E00BEC57A /* silvio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silvio.mp3; sourceTree = "<group>"; };
+		F7872A9022D05EBF00BEC57A /* SilvioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilvioPlayer.swift; sourceTree = "<group>"; };
+		F7872A9222D0670300BEC57A /* silvo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silvo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C042CAED22D0492600838227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		574F4A3722D08B1200443D7D /* MoneyInvestment */ = {
+			isa = PBXGroup;
+			children = (
+				574F4A4222D08C1800443D7D /* MoneyInvestmentViewController.swift */,
+				574F4A3B22D08BE800443D7D /* CollisionCategory.swift */,
+				574F4A3C22D08BE800443D7D /* Money.swift */,
+				574F4A3A22D08BE800443D7D /* PBRMaterial.swift */,
+				574F4A3D22D08BE800443D7D /* Plane.swift */,
+				574F4A4722D0A93500443D7D /* Fire.scnp */,
+				574F4A4622D0A93500443D7D /* spark.png */,
+				574F4A3822D08BC600443D7D /* moneyInvestment.scnassets */,
+				C0BA116522D09BCA00CD99DA /* MoneyInvestment.storyboard */,
+			);
+			path = MoneyInvestment;
+			sourceTree = "<group>";
+		};
+		C0121B8422D07739004EE94A /* FaceSwap */ = {
+			isa = PBXGroup;
+			children = (
+				C0121B8B22D083EE004EE94A /* ARFaceNode.swift */,
+				C0121B8D22D083EE004EE94A /* ARFaceSimple.storyboard */,
+				C0121B8C22D083EE004EE94A /* ARFaceSimpleViewController.swift */,
+				C0121B9122D0848B004EE94A /* TrackingState.swift */,
+			);
+			path = FaceSwap;
+			sourceTree = "<group>";
+		};
+		C0121B8522D07AD7004EE94A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C042CAF722D0492600838227 /* ViewController.swift */,
+				C042CAF922D0492600838227 /* Main.storyboard */,
+				C0121B9322D08644004EE94A /* RoundedButton.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		C0121B8622D083B0004EE94A /* mlmodels */ = {
+			isa = PBXGroup;
+			children = (
+				C0121B8922D083C2004EE94A /* Inceptionv3.mlmodel */,
+				C0121B8722D083B0004EE94A /* README.md */,
+			);
+			path = mlmodels;
+			sourceTree = "<group>";
+		};
+		C042CAE722D0492600838227 = {
+			isa = PBXGroup;
+			children = (
+				C042CAF222D0492600838227 /* HackXP */,
+				C042CAF122D0492600838227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C042CAF122D0492600838227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C042CAF022D0492600838227 /* HackXP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C042CAF222D0492600838227 /* HackXP */ = {
+			isa = PBXGroup;
+			children = (
+				574F4A3722D08B1200443D7D /* MoneyInvestment */,
+				C0121B8622D083B0004EE94A /* mlmodels */,
+				C0121B8522D07AD7004EE94A /* Menu */,
+				C0121B8422D07739004EE94A /* FaceSwap */,
+				F7872A7E22D04B3400BEC57A /* MoneyAirplane */,
+				C042CAF322D0492600838227 /* AppDelegate.swift */,
+				C042CAFC22D0492700838227 /* Assets.xcassets */,
+				C042CAFE22D0492700838227 /* LaunchScreen.storyboard */,
+				C042CB0122D0492700838227 /* Info.plist */,
+			);
+			path = HackXP;
+			sourceTree = "<group>";
+		};
+		F7872A7E22D04B3400BEC57A /* MoneyAirplane */ = {
+			isa = PBXGroup;
+			children = (
+				F7872A9222D0670300BEC57A /* silvo.png */,
+				F7872A8E22D05E9E00BEC57A /* silvio.mp3 */,
+				F7872A8C22D0589C00BEC57A /* Silvio+Santos+hawaii.skp */,
+				F7872A8322D0511D00BEC57A /* silvio.scnassets */,
+				F7872A7F22D04C6600BEC57A /* MoneyAirplaneViewController.swift */,
+				F7872A8122D04CC000BEC57A /* MoneyAirplane.storyboard */,
+				F7872A9022D05EBF00BEC57A /* SilvioPlayer.swift */,
+			);
+			path = MoneyAirplane;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C042CAEF22D0492600838227 /* HackXP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C042CB0422D0492700838227 /* Build configuration list for PBXNativeTarget "HackXP" */;
+			buildPhases = (
+				C042CAEC22D0492600838227 /* Sources */,
+				C042CAED22D0492600838227 /* Frameworks */,
+				C042CAEE22D0492600838227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackXP;
+			productName = HackXP;
+			productReference = C042CAF022D0492600838227 /* HackXP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C042CAE822D0492600838227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gabriel vieira";
+				TargetAttributes = {
+					C042CAEF22D0492600838227 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = C042CAEB22D0492600838227 /* Build configuration list for PBXProject "HackXP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C042CAE722D0492600838227;
+			productRefGroup = C042CAF122D0492600838227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C042CAEF22D0492600838227 /* HackXP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C042CAEE22D0492600838227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7872A9322D0670300BEC57A /* silvo.png in Resources */,
+				C0121B8822D083B1004EE94A /* README.md in Resources */,
+				574F4A4822D0AA5E00443D7D /* Fire.scnp in Resources */,
+				574F4A4922D0AA7500443D7D /* spark.png in Resources */,
+				574F4A3922D08BC600443D7D /* moneyInvestment.scnassets in Resources */,
+				F7872A8422D0511D00BEC57A /* silvio.scnassets in Resources */,
+				C042CB0022D0492700838227 /* LaunchScreen.storyboard in Resources */,
+				F7872A8222D04CC000BEC57A /* MoneyAirplane.storyboard in Resources */,
+				C0BA116622D09BCA00CD99DA /* MoneyInvestment.storyboard in Resources */,
+				C0121B9022D083EE004EE94A /* ARFaceSimple.storyboard in Resources */,
+				C042CAFD22D0492700838227 /* Assets.xcassets in Resources */,
+				C042CAFB22D0492600838227 /* Main.storyboard in Resources */,
+				F7872A8F22D05E9E00BEC57A /* silvio.mp3 in Resources */,
+				F7872A8D22D0589C00BEC57A /* Silvio+Santos+hawaii.skp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C042CAEC22D0492600838227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0121B8A22D083C2004EE94A /* Inceptionv3.mlmodel in Sources */,
+				574F4A3E22D08BE900443D7D /* PBRMaterial.swift in Sources */,
+				574F4A4322D08C1800443D7D /* MoneyInvestmentViewController.swift in Sources */,
+				574F4A3F22D08BE900443D7D /* CollisionCategory.swift in Sources */,
+				574F4A4122D08BE900443D7D /* Plane.swift in Sources */,
+				F7872A9122D05EBF00BEC57A /* SilvioPlayer.swift in Sources */,
+				C0121B9222D0848B004EE94A /* TrackingState.swift in Sources */,
+				F7872A8022D04C6600BEC57A /* MoneyAirplaneViewController.swift in Sources */,
+				574F4A4022D08BE900443D7D /* Money.swift in Sources */,
+				C0121B9422D08644004EE94A /* RoundedButton.swift in Sources */,
+				C0121B8E22D083EE004EE94A /* ARFaceNode.swift in Sources */,
+				C042CAF822D0492600838227 /* ViewController.swift in Sources */,
+				C042CAF422D0492600838227 /* AppDelegate.swift in Sources */,
+				C0121B8F22D083EE004EE94A /* ARFaceSimpleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C042CAF922D0492600838227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C042CAFA22D0492600838227 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C042CAFE22D0492700838227 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C042CAFF22D0492700838227 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C042CB0222D0492700838227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C042CB0322D0492700838227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C042CB0522D0492700838227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F983ZW9E9;
+				INFOPLIST_FILE = HackXP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xp.HackXP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C042CB0622D0492700838227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F983ZW9E9;
+				INFOPLIST_FILE = HackXP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xp.HackXP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C042CAEB22D0492600838227 /* Build configuration list for PBXProject "HackXP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C042CB0222D0492700838227 /* Debug */,
+				C042CB0322D0492700838227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C042CB0422D0492700838227 /* Build configuration list for PBXNativeTarget "HackXP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C042CB0522D0492700838227 /* Debug */,
+				C042CB0622D0492700838227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C042CAE822D0492600838227 /* Project object */;
+}

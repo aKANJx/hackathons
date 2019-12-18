@@ -1,0 +1,62 @@
+ [
+  {
+  "id": "1",
+  "price": "140,00",
+  "address": "Rua João Carlos Macedo 42 - Santa Cruz",
+  "interested": "",
+  "areRented": "als",
+  "contract": "",
+  "capacity": "5",
+  "residents":"4"
+  },
+  {
+  "id": "2",
+  "price": "1200,00",
+  "address": "Avenida Doutor Augusto de Toledo 1340 - Santa Cruz",
+  "interested": "5",
+  "areRented": "false",
+  "contract": "",
+  "capacity": "3",
+  "residents": "2"
+  },
+  {
+  "id": "3",
+  "price": "2400,00",
+  "address": "Alameda Gloria 431 -  Vila Mariana",
+  "interested": "2",
+  "areRented": "true",
+  "contract": "",
+  "capacity": "2",
+  "residents": "2"
+  },
+  {
+  "id": "4",
+  "price": "1400,00",
+  "address": "Rua das Flores 321- Santa Cruz",
+  "interested": "10",
+  "areRented": "true",
+  "contract": "",
+  "capacity": "4",
+  "residents": "1"
+  },
+  {
+  "id": "5",
+  "price": "2000,00",
+  "address": "Alameda Santos 1256 - Paulista",
+  "interested": "16",
+  "areRented": "false",
+  "contract": "",
+  "capacity": "6",
+  "residents": "4"
+  },
+  {
+  "id": "6",
+  "price": "3400,00",
+  "address": "Rua Amador Bueno 474- Santa Cruz",
+  "interested": "12",
+  "areRented": "false",
+  "contract": "",
+  "capacity": "4",
+  "residents": "3"
+  }
+  ]

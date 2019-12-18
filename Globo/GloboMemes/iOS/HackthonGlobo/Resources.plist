@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Sou rica</string>
+		<key>detail</key>
+		<string>Beleza Pura</string>
+		<key>background</key>
+		<string>background-1</string>
+		<key>url</key>
+		<string>cena</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>É tetra</string>
+		<key>detail</key>
+		<string>Galvão Bueno</string>
+		<key>background</key>
+		<string>background-2</string>
+		<key>url</key>
+		<string>tetra</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Nazaré</string>
+		<key>detail</key>
+		<string>Senhora do Destino</string>
+		<key>background</key>
+		<string>background-4</string>
+		<key>url</key>
+		<string>nazare</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Deixa os garoto</string>
+		<key>detail</key>
+		<string>Brincar</string>
+		<key>background</key>
+		<string>andre</string>
+		<key>url</key>
+		<string>andre</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Merda, vai dar</string>
+		<key>detail</key>
+		<string>Exército</string>
+		<key>background</key>
+		<string>vai</string>
+		<key>url</key>
+		<string>vai</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BIRL</string>
+		<key>detail</key>
+		<string>Bambam</string>
+		<key>background</key>
+		<string>background-5</string>
+		<key>url</key>
+		<string>bambam</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Gira gira</string>
+		<key>detail</key>
+		<string>Leticia Spiller</string>
+		<key>background</key>
+		<string>background-6</string>
+		<key>url</key>
+		<string>peao</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Infernooo</string>
+		<key>detail</key>
+		<string>Carminha</string>
+		<key>background</key>
+		<string>background-3</string>
+		<key>url</key>
+		<string>inferno</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Palmas</string>
+		<key>detail</key>
+		<string>Muitas palmas</string>
+		<key>background</key>
+		<string>palma</string>
+		<key>url</key>
+		<string>palma</string>
+	</dict>
+</array>
+</plist>

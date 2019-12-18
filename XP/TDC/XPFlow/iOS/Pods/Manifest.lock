@@ -1,0 +1,24 @@
+PODS:
+  - InputBarAccessoryView (4.2.2)
+  - lottie-ios (3.1.2)
+  - MessageKit (3.0.0):
+    - InputBarAccessoryView (~> 4.2.2)
+
+DEPENDENCIES:
+  - lottie-ios
+  - MessageKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - InputBarAccessoryView
+    - lottie-ios
+    - MessageKit
+
+SPEC CHECKSUMS:
+  InputBarAccessoryView: 2b937602598e2fab3149f37f51dd7ad795653812
+  lottie-ios: 49cd85b1f24f61a7708ad7ec76a523ab2d0e3100
+  MessageKit: e892a9ca49ebe6d82684d3a93ad84021fa23e2c6
+
+PODFILE CHECKSUM: efe34ad1a36e890053e2f04a212b2e8c9342f684
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		508917034C2E0CC57A2BE65D /* Pods_SHIFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6CC67F48F118477FA2D378 /* Pods_SHIFT.framework */; };
+		A20CE45F1D0CD6FA005964A8 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20CE45E1D0CD6FA005964A8 /* RootTabBarController.swift */; };
+		A258E1A21D0D8ECF00BD8B5E /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A258E1A11D0D8ECF00BD8B5E /* TransactionTableViewCell.swift */; };
+		A258E1A41D0D8EDF00BD8B5E /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A258E1A31D0D8EDF00BD8B5E /* TransactionTableViewCell.xib */; };
+		A258E1A61D0D937A00BD8B5E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A258E1A51D0D937A00BD8B5E /* MapViewController.swift */; };
+		A287F1341D0D3BDB00679900 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A287F1331D0D3BDB00679900 /* ProductTableViewCell.swift */; };
+		A287F1361D0D3BED00679900 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A287F1351D0D3BED00679900 /* ProductTableViewCell.xib */; };
+		A287F1381D0D3D3300679900 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A287F1371D0D3D3300679900 /* Product.swift */; };
+		A29076E81D0CF8A7001E2EF9 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29076E71D0CF8A7001E2EF9 /* RectangleView.swift */; };
+		A29EC3421D0CA67C00DAFD29 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29EC3411D0CA67C00DAFD29 /* LoginViewController.swift */; };
+		A2B04E801D0CF60C000B2908 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B04E7F1D0CF60C000B2908 /* BuyViewController.swift */; };
+		A2C032761D0CB24900DD2698 /* Simplify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2C032741D0CB24900DD2698 /* Simplify.bundle */; };
+		A2C032771D0CB24900DD2698 /* Simplify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C032751D0CB24900DD2698 /* Simplify.framework */; };
+		A2C032791D0CB2AD00DD2698 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C032781D0CB2AD00DD2698 /* PaymentViewController.swift */; };
+		A2D18A3C1D0CA200002C639D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D18A3B1D0CA200002C639D /* AppDelegate.swift */; };
+		A2D18A411D0CA200002C639D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D18A3F1D0CA200002C639D /* Main.storyboard */; };
+		A2D18A431D0CA200002C639D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D18A421D0CA200002C639D /* Assets.xcassets */; };
+		A2D18A461D0CA200002C639D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D18A441D0CA200002C639D /* LaunchScreen.storyboard */; };
+		A2D435781D0CD06D000BE545 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D435771D0CD06D000BE545 /* HomeViewController.swift */; };
+		A2D788E81D0D81D70049B9AE /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D788E71D0D81D70049B9AE /* APIClient.swift */; };
+		A2D788EA1D0D86290049B9AE /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D788E91D0D86290049B9AE /* Transaction.swift */; };
+		A2D788EC1D0D88530049B9AE /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D788EB1D0D88530049B9AE /* SweetAlert.swift */; };
+		A2E061211D0CE7F500BCF062 /* ARPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E061201D0CE7F500BCF062 /* ARPieChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C9A95832EE25F3CE847EFE0 /* Pods-SHIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHIFT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHIFT/Pods-SHIFT.debug.xcconfig"; sourceTree = "<group>"; };
+		A20CE45E1D0CD6FA005964A8 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		A258E1A11D0D8ECF00BD8B5E /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		A258E1A31D0D8EDF00BD8B5E /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		A258E1A51D0D937A00BD8B5E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A287F1331D0D3BDB00679900 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		A287F1351D0D3BED00679900 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		A287F1371D0D3D3300679900 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A29076E71D0CF8A7001E2EF9 /* RectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		A29EC33B1D0CA28100DAFD29 /* SHIFT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHIFT-Bridging-Header.h"; sourceTree = "<group>"; };
+		A29EC3411D0CA67C00DAFD29 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A2B04E7F1D0CF60C000B2908 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		A2C032741D0CB24900DD2698 /* Simplify.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Simplify.bundle; sourceTree = "<group>"; };
+		A2C032751D0CB24900DD2698 /* Simplify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Simplify.framework; sourceTree = "<group>"; };
+		A2C032781D0CB2AD00DD2698 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		A2D18A381D0CA200002C639D /* SHIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D18A3B1D0CA200002C639D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D18A401D0CA200002C639D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D18A421D0CA200002C639D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D18A451D0CA200002C639D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D18A471D0CA200002C639D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D435771D0CD06D000BE545 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A2D788E71D0D81D70049B9AE /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A2D788E91D0D86290049B9AE /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		A2D788EB1D0D88530049B9AE /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		A2E061201D0CE7F500BCF062 /* ARPieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARPieChart.swift; sourceTree = "<group>"; };
+		A92990BBE122FA8326F8550D /* Pods-SHIFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHIFT.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHIFT/Pods-SHIFT.release.xcconfig"; sourceTree = "<group>"; };
+		DA6CC67F48F118477FA2D378 /* Pods_SHIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHIFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D18A351D0CA200002C639D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508917034C2E0CC57A2BE65D /* Pods_SHIFT.framework in Frameworks */,
+				A2C032771D0CB24900DD2698 /* Simplify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FFCDE55C159C51D48EF90C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6CC67F48F118477FA2D378 /* Pods_SHIFT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		958B9923357CAC4274EF98E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C9A95832EE25F3CE847EFE0 /* Pods-SHIFT.debug.xcconfig */,
+				A92990BBE122FA8326F8550D /* Pods-SHIFT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A287F12F1D0D3B9600679900 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2D788E71D0D81D70049B9AE /* APIClient.swift */,
+				A287F1371D0D3D3300679900 /* Product.swift */,
+				A2D788E91D0D86290049B9AE /* Transaction.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A287F1301D0D3B9A00679900 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A287F1321D0D3BBC00679900 /* Reusable Cells */,
+				A29076E71D0CF8A7001E2EF9 /* RectangleView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A287F1311D0D3BA100679900 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A20CE45E1D0CD6FA005964A8 /* RootTabBarController.swift */,
+				A29EC3411D0CA67C00DAFD29 /* LoginViewController.swift */,
+				A2D435771D0CD06D000BE545 /* HomeViewController.swift */,
+				A2B04E7F1D0CF60C000B2908 /* BuyViewController.swift */,
+				A2C032781D0CB2AD00DD2698 /* PaymentViewController.swift */,
+				A258E1A51D0D937A00BD8B5E /* MapViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A287F1321D0D3BBC00679900 /* Reusable Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A287F1331D0D3BDB00679900 /* ProductTableViewCell.swift */,
+				A287F1351D0D3BED00679900 /* ProductTableViewCell.xib */,
+				A258E1A11D0D8ECF00BD8B5E /* TransactionTableViewCell.swift */,
+				A258E1A31D0D8EDF00BD8B5E /* TransactionTableViewCell.xib */,
+			);
+			name = "Reusable Cells";
+			sourceTree = "<group>";
+		};
+		A29EC33A1D0CA26F00DAFD29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D788EB1D0D88530049B9AE /* SweetAlert.swift */,
+				A2E061201D0CE7F500BCF062 /* ARPieChart.swift */,
+				A2C032741D0CB24900DD2698 /* Simplify.bundle */,
+				A2C032751D0CB24900DD2698 /* Simplify.framework */,
+				A29EC33B1D0CA28100DAFD29 /* SHIFT-Bridging-Header.h */,
+				A2D18A3B1D0CA200002C639D /* AppDelegate.swift */,
+				A2D18A421D0CA200002C639D /* Assets.xcassets */,
+				A2D18A441D0CA200002C639D /* LaunchScreen.storyboard */,
+				A2D18A471D0CA200002C639D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2D18A2F1D0CA200002C639D = {
+			isa = PBXGroup;
+			children = (
+				A2D18A3A1D0CA200002C639D /* SHIFT */,
+				A2D18A391D0CA200002C639D /* Products */,
+				958B9923357CAC4274EF98E8 /* Pods */,
+				6FFCDE55C159C51D48EF90C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D18A391D0CA200002C639D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D18A381D0CA200002C639D /* SHIFT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D18A3A1D0CA200002C639D /* SHIFT */ = {
+			isa = PBXGroup;
+			children = (
+				A2D18A3F1D0CA200002C639D /* Main.storyboard */,
+				A287F12F1D0D3B9600679900 /* Model */,
+				A287F1301D0D3B9A00679900 /* View */,
+				A287F1311D0D3BA100679900 /* Controller */,
+				A29EC33A1D0CA26F00DAFD29 /* Supporting Files */,
+			);
+			path = SHIFT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D18A371D0CA200002C639D /* SHIFT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D18A4A1D0CA200002C639D /* Build configuration list for PBXNativeTarget "SHIFT" */;
+			buildPhases = (
+				474651979BF918A4BCF1C767 /* 📦 Check Pods Manifest.lock */,
+				A2D18A341D0CA200002C639D /* Sources */,
+				A2D18A351D0CA200002C639D /* Frameworks */,
+				A2D18A361D0CA200002C639D /* Resources */,
+				09A5D30E04BF6274CD600C68 /* 📦 Embed Pods Frameworks */,
+				967BC157A178F695999408A2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHIFT;
+			productName = SHIFT;
+			productReference = A2D18A381D0CA200002C639D /* SHIFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D18A301D0CA200002C639D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jean Paul Marinho";
+				TargetAttributes = {
+					A2D18A371D0CA200002C639D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A2D18A331D0CA200002C639D /* Build configuration list for PBXProject "SHIFT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D18A2F1D0CA200002C639D;
+			productRefGroup = A2D18A391D0CA200002C639D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D18A371D0CA200002C639D /* SHIFT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D18A361D0CA200002C639D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C032761D0CB24900DD2698 /* Simplify.bundle in Resources */,
+				A2D18A461D0CA200002C639D /* LaunchScreen.storyboard in Resources */,
+				A287F1361D0D3BED00679900 /* ProductTableViewCell.xib in Resources */,
+				A2D18A431D0CA200002C639D /* Assets.xcassets in Resources */,
+				A258E1A41D0D8EDF00BD8B5E /* TransactionTableViewCell.xib in Resources */,
+				A2D18A411D0CA200002C639D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A5D30E04BF6274CD600C68 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHIFT/Pods-SHIFT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474651979BF918A4BCF1C767 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		967BC157A178F695999408A2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHIFT/Pods-SHIFT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D18A341D0CA200002C639D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D435781D0CD06D000BE545 /* HomeViewController.swift in Sources */,
+				A20CE45F1D0CD6FA005964A8 /* RootTabBarController.swift in Sources */,
+				A2D788EA1D0D86290049B9AE /* Transaction.swift in Sources */,
+				A2D788EC1D0D88530049B9AE /* SweetAlert.swift in Sources */,
+				A287F1341D0D3BDB00679900 /* ProductTableViewCell.swift in Sources */,
+				A29EC3421D0CA67C00DAFD29 /* LoginViewController.swift in Sources */,
+				A2E061211D0CE7F500BCF062 /* ARPieChart.swift in Sources */,
+				A2D788E81D0D81D70049B9AE /* APIClient.swift in Sources */,
+				A258E1A21D0D8ECF00BD8B5E /* TransactionTableViewCell.swift in Sources */,
+				A2C032791D0CB2AD00DD2698 /* PaymentViewController.swift in Sources */,
+				A2B04E801D0CF60C000B2908 /* BuyViewController.swift in Sources */,
+				A287F1381D0D3D3300679900 /* Product.swift in Sources */,
+				A29076E81D0CF8A7001E2EF9 /* RectangleView.swift in Sources */,
+				A258E1A61D0D937A00BD8B5E /* MapViewController.swift in Sources */,
+				A2D18A3C1D0CA200002C639D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2D18A3F1D0CA200002C639D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D18A401D0CA200002C639D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D18A441D0CA200002C639D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D18A451D0CA200002C639D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D18A481D0CA200002C639D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2D18A491D0CA200002C639D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D18A4B1D0CA200002C639D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9A95832EE25F3CE847EFE0 /* Pods-SHIFT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SHIFT",
+				);
+				INFOPLIST_FILE = SHIFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeanPaulMarinho.SHIFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SHIFT/SHIFT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2D18A4C1D0CA200002C639D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92990BBE122FA8326F8550D /* Pods-SHIFT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SHIFT",
+				);
+				INFOPLIST_FILE = SHIFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeanPaulMarinho.SHIFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SHIFT/SHIFT-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D18A331D0CA200002C639D /* Build configuration list for PBXProject "SHIFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D18A481D0CA200002C639D /* Debug */,
+				A2D18A491D0CA200002C639D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D18A4A1D0CA200002C639D /* Build configuration list for PBXNativeTarget "SHIFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D18A4B1D0CA200002C639D /* Debug */,
+				A2D18A4C1D0CA200002C639D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D18A301D0CA200002C639D /* Project object */;
+}

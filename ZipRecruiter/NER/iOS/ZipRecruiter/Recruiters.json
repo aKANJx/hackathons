@@ -1,0 +1,46 @@
+ [{
+  "name": "Jessica Silva",
+  "company": "Best Buy",
+  "companyImage": "bestbuy",
+  "description": "Best Buy Co., Inc. is a U.S transnational consumer electronics corporation headquartered in Richfield, Minnesota, a Minneapolis suburb. Internationally, it also operates in Canada and Mexico.",
+  "latitude": "34.019454",
+  "longitude": "-118.491191",
+  "photoID": "profile1",
+  "abilities": "Technology, Sales, Games"
+  }, {
+  "name": "Sarah Sales",
+  "company": "Riot Games",
+  "companyImage": "riot",
+  "description": "Riot Games is an American video game developer, publisher, and eSports tournament organizer established in 2006. Their main office is based in West Los Angeles, California.",
+  "latitude": "34.020358",
+  "longitude": "-118.497162",
+  "photoID": "profile2",
+  "abilities": "Technology, Games, Sports, Media"
+  }, {
+  "name": "Alvin Junior",
+  "company": "AT&T",
+  "companyImage": "att",
+  "description": "AT&T Inc. is an American multinational telecommunications conglomerate, headquartered at Whitacre Tower in downtown Dallas, Texas.",
+  "latitude": "34.020749",
+  "longitude": "-118.503299",
+  "photoID": "profile3",
+  "abilities": "Technology, Costumer Service, Media"
+  }, {
+  "name": "Brian Roberts",
+  "company": "Rolling Stone",
+  "companyImage": "RS",
+  "description": "Rolling Stone is an American biweekly magazine that focuses on popular culture. It was founded in San Francisco in 1967 by Jann Wenner, who is still the magazine's publisher, and the music critic Ralph J. Gleason.",
+  "latitude": "34.016588",
+  "longitude": "-118.497977",
+  "photoID": "profile4",
+  "abilities": "Technology, Music, Writing, Research"
+  }, {
+  "name": "Elvis Fitzgerald",
+  "company": "General Assembly",
+  "companyImage": "GA",
+  "description": "General Assembly is a pioneer in education and career transformation, specializing in today’s most in-demand skills.",
+  "latitude": "34.014240",
+  "longitude": "-118.499222",
+  "photoID": "profile5",
+  "abilities": "Technology, Education, Games, Science"
+  }]

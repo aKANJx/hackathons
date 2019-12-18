@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chat View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ChatViewController" customModule="HackMogiWhats" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lp-AD-pN1">
+                                <rect key="frame" x="0.0" y="167" width="375" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="fsZ-fY-PFU"/>
+                                </constraints>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="mapPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTs-zF-nZt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQg-1F-LfG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="playPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="krM-gS-0k3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="2lp-AD-pN1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dyk-2g-UVf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2lp-AD-pN1" secondAttribute="bottom" id="brh-k8-6Dm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2lp-AD-pN1" secondAttribute="trailing" id="ipk-tf-U95"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <segue destination="n63-W3-aN8" kind="presentation" identifier="goToMap" id="bE4-Rn-Wfv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="27.436281859070466"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="ctK-Yb-34e">
+            <objects>
+                <viewController id="n63-W3-aN8" customClass="MapViewController" customModule="HackMogiWhats" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L6i-6N-iAF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4T5-qQ-OcX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="0gT-Y6-0TX">
+                                <rect key="frame" x="177.5" y="333.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="4T5-qQ-OcX" firstAttribute="bottom" secondItem="5oV-Oo-WvK" secondAttribute="bottom" id="JsE-pl-Iku"/>
+                            <constraint firstItem="0gT-Y6-0TX" firstAttribute="centerY" secondItem="5oV-Oo-WvK" secondAttribute="centerY" id="Z9m-aM-9CK"/>
+                            <constraint firstItem="4T5-qQ-OcX" firstAttribute="leading" secondItem="5oV-Oo-WvK" secondAttribute="leading" id="Zc5-u1-Ktr"/>
+                            <constraint firstItem="5oV-Oo-WvK" firstAttribute="trailing" secondItem="4T5-qQ-OcX" secondAttribute="trailing" id="e0z-5r-OWU"/>
+                            <constraint firstItem="5oV-Oo-WvK" firstAttribute="top" secondItem="4T5-qQ-OcX" secondAttribute="top" constant="20" id="kLw-Ww-agj"/>
+                            <constraint firstItem="0gT-Y6-0TX" firstAttribute="centerX" secondItem="5oV-Oo-WvK" secondAttribute="centerX" id="zEy-dI-niR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5oV-Oo-WvK"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="0gT-Y6-0TX" id="v65-mU-xfV"/>
+                        <outlet property="webView" destination="4T5-qQ-OcX" id="voK-o9-cbg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uyZ-Br-FkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="27"/>
+        </scene>
+    </scenes>
+</document>

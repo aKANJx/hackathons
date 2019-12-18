@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    <wpt lat="-14.7410528" lon="-39.0768027">
+        <name>-14.7410528,-39.0768027</name>
+        <desc>BA-262, Ilhéus - BA, Brasil</desc>
+    </wpt>
+    <wpt lat="-14.7935051" lon="-39.0463797">
+        <name>Ilhéus</name>
+    </wpt>
+    <wpt lat="-14.74187" lon="-39.07651">
+        <desc>&lt;b>trackpoint #1&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7418700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0765100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74185" lon="-39.07645">
+        <desc>&lt;b>trackpoint #2&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7418500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0764500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74176" lon="-39.07615">
+        <desc>&lt;b>trackpoint #3&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7417600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0761500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7417" lon="-39.07592">
+        <desc>&lt;b>trackpoint #4&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7417000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0759200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74167" lon="-39.07576">
+        <desc>&lt;b>trackpoint #5&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7416700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0757600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74165" lon="-39.0756">
+        <desc>&lt;b>trackpoint #6&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7416500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0756000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74163" lon="-39.07541">
+        <desc>&lt;b>trackpoint #7&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7416300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0754100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74162" lon="-39.0753">
+        <desc>&lt;b>trackpoint #8&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7416200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0753000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74162" lon="-39.07528">
+        <desc>&lt;b>trackpoint #9&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7416200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0752800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74162" lon="-39.07528">
+        <desc>&lt;b>trackpoint #10&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7416200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0752800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74178" lon="-39.07529">
+        <desc>&lt;b>trackpoint #11&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7417800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0752900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74178" lon="-39.07529">
+        <desc>&lt;b>trackpoint #12&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7417800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0752900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74178" lon="-39.07516">
+        <desc>&lt;b>trackpoint #13&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7417800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0751600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74179" lon="-39.07503">
+        <desc>&lt;b>trackpoint #14&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7417900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0750300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7418" lon="-39.07488">
+        <desc>&lt;b>trackpoint #15&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7418000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0748800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74183" lon="-39.07474">
+        <desc>&lt;b>trackpoint #16&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7418300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0747400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74186" lon="-39.07461">
+        <desc>&lt;b>trackpoint #17&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7418600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0746100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74191" lon="-39.07442">
+        <desc>&lt;b>trackpoint #18&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7419100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0744200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74197" lon="-39.07426">
+        <desc>&lt;b>trackpoint #19&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7419700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0742600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74202" lon="-39.07413">
+        <desc>&lt;b>trackpoint #20&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7420200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0741300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74208" lon="-39.074">
+        <desc>&lt;b>trackpoint #21&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7420800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0740000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74213" lon="-39.07392">
+        <desc>&lt;b>trackpoint #22&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7421300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0739200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74219" lon="-39.07382">
+        <desc>&lt;b>trackpoint #23&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7421900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0738200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74231" lon="-39.07361">
+        <desc>&lt;b>trackpoint #24&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7423100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0736100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74256" lon="-39.07322">
+        <desc>&lt;b>trackpoint #25&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7425600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0732200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74283" lon="-39.0728">
+        <desc>&lt;b>trackpoint #26&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7428300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0728000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74304" lon="-39.07251">
+        <desc>&lt;b>trackpoint #27&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7430400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0725100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74312" lon="-39.07238">
+        <desc>&lt;b>trackpoint #28&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7431200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0723800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74326" lon="-39.07216">
+        <desc>&lt;b>trackpoint #29&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7432600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0721600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74347" lon="-39.07182">
+        <desc>&lt;b>trackpoint #30&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7434700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0718200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74376" lon="-39.0713">
+        <desc>&lt;b>trackpoint #31&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7437600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0713000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74394" lon="-39.071">
+        <desc>&lt;b>trackpoint #32&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7439400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0710000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7443" lon="-39.07045">
+        <desc>&lt;b>trackpoint #33&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7443000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0704500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74456" lon="-39.07014">
+        <desc>&lt;b>trackpoint #34&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7445600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0701400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74548" lon="-39.0693">
+        <desc>&lt;b>trackpoint #35&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7454800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0693000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7457" lon="-39.06912">
+        <desc>&lt;b>trackpoint #36&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7457000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0691200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74608" lon="-39.06889">
+        <desc>&lt;b>trackpoint #37&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7460800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0688900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74642" lon="-39.06874">
+        <desc>&lt;b>trackpoint #38&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7464200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0687400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74671" lon="-39.06862">
+        <desc>&lt;b>trackpoint #39&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7467100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0686200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74693" lon="-39.06854">
+        <desc>&lt;b>trackpoint #40&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7469300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0685400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7472" lon="-39.06845">
+        <desc>&lt;b>trackpoint #41&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7472000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0684500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.74891" lon="-39.06793">
+        <desc>&lt;b>trackpoint #42&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7489100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0679300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75009" lon="-39.06755">
+        <desc>&lt;b>trackpoint #43&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7500900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0675500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75019" lon="-39.06752">
+        <desc>&lt;b>trackpoint #44&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7501900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0675200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75039" lon="-39.06746">
+        <desc>&lt;b>trackpoint #45&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7503900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0674600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75064" lon="-39.06738">
+        <desc>&lt;b>trackpoint #46&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7506400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0673800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75088" lon="-39.06731">
+        <desc>&lt;b>trackpoint #47&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7508800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0673100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75147" lon="-39.06712">
+        <desc>&lt;b>trackpoint #48&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7514700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7517" lon="-39.0671">
+        <desc>&lt;b>trackpoint #49&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7517000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75178" lon="-39.06711">
+        <desc>&lt;b>trackpoint #50&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7517800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75194" lon="-39.06713">
+        <desc>&lt;b>trackpoint #51&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7519400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75194" lon="-39.06713">
+        <desc>&lt;b>trackpoint #52&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7519400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75196" lon="-39.06715">
+        <desc>&lt;b>trackpoint #53&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7519600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75198" lon="-39.06716">
+        <desc>&lt;b>trackpoint #54&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7519800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.752" lon="-39.06718">
+        <desc>&lt;b>trackpoint #55&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7520000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75202" lon="-39.06719">
+        <desc>&lt;b>trackpoint #56&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7520200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75204" lon="-39.0672">
+        <desc>&lt;b>trackpoint #57&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7520400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0672000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75207" lon="-39.06721">
+        <desc>&lt;b>trackpoint #58&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7520700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0672100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75209" lon="-39.06722">
+        <desc>&lt;b>trackpoint #59&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7520900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0672200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75212" lon="-39.06723">
+        <desc>&lt;b>trackpoint #60&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7521200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0672300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75216" lon="-39.06723">
+        <desc>&lt;b>trackpoint #61&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7521600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0672300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7522" lon="-39.06722">
+        <desc>&lt;b>trackpoint #62&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7522000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0672200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75224" lon="-39.06721">
+        <desc>&lt;b>trackpoint #63&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7522400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0672100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75228" lon="-39.0672">
+        <desc>&lt;b>trackpoint #64&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7522800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0672000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75232" lon="-39.06718">
+        <desc>&lt;b>trackpoint #65&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7523200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75235" lon="-39.06716">
+        <desc>&lt;b>trackpoint #66&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7523500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75239" lon="-39.06713">
+        <desc>&lt;b>trackpoint #67&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7523900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75242" lon="-39.06711">
+        <desc>&lt;b>trackpoint #68&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7524200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75243" lon="-39.0671">
+        <desc>&lt;b>trackpoint #69&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7524300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0671000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75244" lon="-39.06708">
+        <desc>&lt;b>trackpoint #70&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7524400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0670800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75245" lon="-39.06707">
+        <desc>&lt;b>trackpoint #71&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7524500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0670700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75246" lon="-39.06706">
+        <desc>&lt;b>trackpoint #72&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7524600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0670600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75246" lon="-39.06704">
+        <desc>&lt;b>trackpoint #73&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7524600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0670400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75247" lon="-39.06703">
+        <desc>&lt;b>trackpoint #74&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7524700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0670300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75248" lon="-39.06701">
+        <desc>&lt;b>trackpoint #75&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7524800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0670100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75248" lon="-39.067">
+        <desc>&lt;b>trackpoint #76&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7524800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0670000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75286" lon="-39.0667">
+        <desc>&lt;b>trackpoint #77&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7528600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0667000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75327" lon="-39.06657">
+        <desc>&lt;b>trackpoint #78&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7532700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0665700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75345" lon="-39.06651">
+        <desc>&lt;b>trackpoint #79&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7534500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0665100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7538" lon="-39.06638">
+        <desc>&lt;b>trackpoint #80&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7538000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0663800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75406" lon="-39.06629">
+        <desc>&lt;b>trackpoint #81&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7540600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0662900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75416" lon="-39.06626">
+        <desc>&lt;b>trackpoint #82&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7541600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0662600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75576" lon="-39.06579">
+        <desc>&lt;b>trackpoint #83&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7557600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0657900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75655" lon="-39.06554">
+        <desc>&lt;b>trackpoint #84&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7565500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0655400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75849" lon="-39.06493">
+        <desc>&lt;b>trackpoint #85&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7584900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0649300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75883" lon="-39.06483">
+        <desc>&lt;b>trackpoint #86&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7588300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0648300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.75922" lon="-39.0647">
+        <desc>&lt;b>trackpoint #87&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7592200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0647000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76059" lon="-39.06428">
+        <desc>&lt;b>trackpoint #88&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7605900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0642800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76063" lon="-39.06427">
+        <desc>&lt;b>trackpoint #89&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7606300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0642700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76069" lon="-39.06424">
+        <desc>&lt;b>trackpoint #90&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7606900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0642400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76071" lon="-39.06423">
+        <desc>&lt;b>trackpoint #91&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7607100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0642300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76073" lon="-39.06422">
+        <desc>&lt;b>trackpoint #92&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7607300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0642200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76102" lon="-39.06412">
+        <desc>&lt;b>trackpoint #93&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7610200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0641200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76197" lon="-39.06383">
+        <desc>&lt;b>trackpoint #94&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7619700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0638300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76345" lon="-39.06336">
+        <desc>&lt;b>trackpoint #95&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7634500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0633600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76524" lon="-39.06279">
+        <desc>&lt;b>trackpoint #96&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7652400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0627900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76601" lon="-39.06254">
+        <desc>&lt;b>trackpoint #97&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7660100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0625400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76704" lon="-39.0622">
+        <desc>&lt;b>trackpoint #98&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7670400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0622000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76885" lon="-39.06164">
+        <desc>&lt;b>trackpoint #99&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7688500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0616400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.76995" lon="-39.0613">
+        <desc>&lt;b>trackpoint #100&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7699500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0613000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77062" lon="-39.06101">
+        <desc>&lt;b>trackpoint #101&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7706200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0610100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77116" lon="-39.06069">
+        <desc>&lt;b>trackpoint #102&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7711600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0606900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77116" lon="-39.06069">
+        <desc>&lt;b>trackpoint #103&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7711600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0606900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77131" lon="-39.06064">
+        <desc>&lt;b>trackpoint #104&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7713100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0606400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77134" lon="-39.06063">
+        <desc>&lt;b>trackpoint #105&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7713400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0606300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77171" lon="-39.06044">
+        <desc>&lt;b>trackpoint #106&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7717100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0604400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77184" lon="-39.06035">
+        <desc>&lt;b>trackpoint #107&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7718400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0603500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77234" lon="-39.06">
+        <desc>&lt;b>trackpoint #108&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7723400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0600000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77282" lon="-39.05962">
+        <desc>&lt;b>trackpoint #109&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7728200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0596200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77353" lon="-39.05904">
+        <desc>&lt;b>trackpoint #110&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7735300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0590400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77353" lon="-39.05904">
+        <desc>&lt;b>trackpoint #111&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7735300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0590400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77464" lon="-39.05819">
+        <desc>&lt;b>trackpoint #112&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7746400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0581900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77574" lon="-39.05733">
+        <desc>&lt;b>trackpoint #113&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7757400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0573300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77609" lon="-39.05708">
+        <desc>&lt;b>trackpoint #114&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7760900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0570800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7765" lon="-39.05678">
+        <desc>&lt;b>trackpoint #115&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7765000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0567800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77682" lon="-39.0565">
+        <desc>&lt;b>trackpoint #116&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7768200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0565000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77717" lon="-39.0562">
+        <desc>&lt;b>trackpoint #117&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7771700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0562000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77742" lon="-39.056">
+        <desc>&lt;b>trackpoint #118&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7774200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0560000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77745" lon="-39.05598">
+        <desc>&lt;b>trackpoint #119&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7774500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0559800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77757" lon="-39.05589">
+        <desc>&lt;b>trackpoint #120&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7775700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0558900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77767" lon="-39.05582">
+        <desc>&lt;b>trackpoint #121&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7776700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0558200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77777" lon="-39.05576">
+        <desc>&lt;b>trackpoint #122&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7777700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0557600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77817" lon="-39.05558">
+        <desc>&lt;b>trackpoint #123&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7781700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0555800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7782" lon="-39.05556">
+        <desc>&lt;b>trackpoint #124&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7782000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0555600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77837" lon="-39.05551">
+        <desc>&lt;b>trackpoint #125&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7783700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0555100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77876" lon="-39.05545">
+        <desc>&lt;b>trackpoint #126&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7787600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0554500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77911" lon="-39.05535">
+        <desc>&lt;b>trackpoint #127&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7791100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0553500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77919" lon="-39.05533">
+        <desc>&lt;b>trackpoint #128&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7791900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0553300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77927" lon="-39.05529">
+        <desc>&lt;b>trackpoint #129&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7792700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0552900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77934" lon="-39.05525">
+        <desc>&lt;b>trackpoint #130&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7793400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0552500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77962" lon="-39.05505">
+        <desc>&lt;b>trackpoint #131&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7796200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0550500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77969" lon="-39.05498">
+        <desc>&lt;b>trackpoint #132&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7796900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0549800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.77974" lon="-39.05492">
+        <desc>&lt;b>trackpoint #133&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7797400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0549200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78038" lon="-39.05398">
+        <desc>&lt;b>trackpoint #134&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7803800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0539800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78044" lon="-39.05389">
+        <desc>&lt;b>trackpoint #135&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7804400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0538900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78052" lon="-39.05382">
+        <desc>&lt;b>trackpoint #136&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7805200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0538200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7806" lon="-39.05375">
+        <desc>&lt;b>trackpoint #137&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7806000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0537500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78083" lon="-39.05362">
+        <desc>&lt;b>trackpoint #138&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7808300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0536200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78106" lon="-39.05349">
+        <desc>&lt;b>trackpoint #139&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7810600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0534900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78128" lon="-39.05335">
+        <desc>&lt;b>trackpoint #140&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7812800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0533500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78151" lon="-39.05322">
+        <desc>&lt;b>trackpoint #141&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7815100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0532200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78169" lon="-39.0531">
+        <desc>&lt;b>trackpoint #142&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7816900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0531000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78187" lon="-39.05301">
+        <desc>&lt;b>trackpoint #143&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7818700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0530100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.782" lon="-39.05292">
+        <desc>&lt;b>trackpoint #144&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7820000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0529200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78232" lon="-39.05264">
+        <desc>&lt;b>trackpoint #145&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7823200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0526400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78261" lon="-39.05235">
+        <desc>&lt;b>trackpoint #146&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7826100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0523500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7827" lon="-39.05227">
+        <desc>&lt;b>trackpoint #147&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7827000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0522700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7827" lon="-39.05227">
+        <desc>&lt;b>trackpoint #148&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7827000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0522700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78287" lon="-39.0522">
+        <desc>&lt;b>trackpoint #149&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7828700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0522000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.783" lon="-39.05214">
+        <desc>&lt;b>trackpoint #150&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7830000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0521400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78323" lon="-39.05203">
+        <desc>&lt;b>trackpoint #151&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7832300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0520300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78378" lon="-39.0518">
+        <desc>&lt;b>trackpoint #152&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7837800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0518000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78396" lon="-39.05174">
+        <desc>&lt;b>trackpoint #153&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7839600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0517400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78435" lon="-39.05162">
+        <desc>&lt;b>trackpoint #154&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7843500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0516200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78455" lon="-39.05154">
+        <desc>&lt;b>trackpoint #155&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7845500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0515400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78475" lon="-39.05147">
+        <desc>&lt;b>trackpoint #156&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7847500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0514700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78545" lon="-39.05128">
+        <desc>&lt;b>trackpoint #157&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7854500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0512800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7859" lon="-39.05115">
+        <desc>&lt;b>trackpoint #158&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7859000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0511500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78618" lon="-39.05108">
+        <desc>&lt;b>trackpoint #159&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7861800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0510800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78645" lon="-39.051">
+        <desc>&lt;b>trackpoint #160&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7864500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0510000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78668" lon="-39.05093">
+        <desc>&lt;b>trackpoint #161&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7866800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0509300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78683" lon="-39.05087">
+        <desc>&lt;b>trackpoint #162&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7868300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0508700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78687" lon="-39.05085">
+        <desc>&lt;b>trackpoint #163&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7868700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0508500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78691" lon="-39.05082">
+        <desc>&lt;b>trackpoint #164&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7869100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0508200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78707" lon="-39.05069">
+        <desc>&lt;b>trackpoint #165&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7870700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0506900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78722" lon="-39.05052">
+        <desc>&lt;b>trackpoint #166&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7872200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0505200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78737" lon="-39.05035">
+        <desc>&lt;b>trackpoint #167&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7873700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0503500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78777" lon="-39.0499">
+        <desc>&lt;b>trackpoint #168&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7877700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0499000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7878" lon="-39.04986">
+        <desc>&lt;b>trackpoint #169&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7878000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0498600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78794" lon="-39.04972">
+        <desc>&lt;b>trackpoint #170&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7879400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0497200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78808" lon="-39.04959">
+        <desc>&lt;b>trackpoint #171&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7880800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0495900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78848" lon="-39.04917">
+        <desc>&lt;b>trackpoint #172&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7884800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0491700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78856" lon="-39.0491">
+        <desc>&lt;b>trackpoint #173&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7885600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0491000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78868" lon="-39.04898">
+        <desc>&lt;b>trackpoint #174&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7886800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0489800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78878" lon="-39.04891">
+        <desc>&lt;b>trackpoint #175&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7887800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0489100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78889" lon="-39.04883">
+        <desc>&lt;b>trackpoint #176&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7888900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0488300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78899" lon="-39.04879">
+        <desc>&lt;b>trackpoint #177&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7889900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0487900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78907" lon="-39.04876">
+        <desc>&lt;b>trackpoint #178&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7890700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0487600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78919" lon="-39.04874">
+        <desc>&lt;b>trackpoint #179&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7891900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0487400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.78932" lon="-39.04872">
+        <desc>&lt;b>trackpoint #180&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7893200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0487200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7896" lon="-39.04869">
+        <desc>&lt;b>trackpoint #181&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7896000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0486900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7897" lon="-39.04868">
+        <desc>&lt;b>trackpoint #182&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7897000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0486800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79003" lon="-39.04863">
+        <desc>&lt;b>trackpoint #183&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7900300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0486300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79065" lon="-39.04857">
+        <desc>&lt;b>trackpoint #184&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7906500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0485700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79128" lon="-39.04847">
+        <desc>&lt;b>trackpoint #185&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7912800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0484700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79219" lon="-39.04834">
+        <desc>&lt;b>trackpoint #186&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7921900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0483400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79219" lon="-39.04834">
+        <desc>&lt;b>trackpoint #187&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7921900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0483400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79209" lon="-39.04804">
+        <desc>&lt;b>trackpoint #188&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7920900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0480400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.792" lon="-39.04775">
+        <desc>&lt;b>trackpoint #189&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7920000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0477500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79196" lon="-39.04763">
+        <desc>&lt;b>trackpoint #190&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7919600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0476300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7918" lon="-39.04721">
+        <desc>&lt;b>trackpoint #191&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7918000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0472100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79175" lon="-39.04708">
+        <desc>&lt;b>trackpoint #192&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7917500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0470800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79173" lon="-39.04704">
+        <desc>&lt;b>trackpoint #193&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7917300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0470400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79171" lon="-39.047">
+        <desc>&lt;b>trackpoint #194&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7917100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0470000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79165" lon="-39.04678">
+        <desc>&lt;b>trackpoint #195&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7916500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0467800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79162" lon="-39.04667">
+        <desc>&lt;b>trackpoint #196&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7916200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0466700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79151" lon="-39.0464">
+        <desc>&lt;b>trackpoint #197&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7915100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0464000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79135" lon="-39.04601">
+        <desc>&lt;b>trackpoint #198&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7913500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0460100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79086" lon="-39.04456">
+        <desc>&lt;b>trackpoint #199&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7908600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0445600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79076" lon="-39.04414">
+        <desc>&lt;b>trackpoint #200&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7907600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0441400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79071" lon="-39.04401">
+        <desc>&lt;b>trackpoint #201&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7907100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0440100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79067" lon="-39.04388">
+        <desc>&lt;b>trackpoint #202&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7906700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0438800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79065" lon="-39.04381">
+        <desc>&lt;b>trackpoint #203&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7906500&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0438100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79062" lon="-39.04374">
+        <desc>&lt;b>trackpoint #204&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7906200&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0437400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79058" lon="-39.04347">
+        <desc>&lt;b>trackpoint #205&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7905800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0434700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79054" lon="-39.0432">
+        <desc>&lt;b>trackpoint #206&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7905400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0432000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79056" lon="-39.04316">
+        <desc>&lt;b>trackpoint #207&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7905600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0431600&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79057" lon="-39.04313">
+        <desc>&lt;b>trackpoint #208&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7905700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0431300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79058" lon="-39.04309">
+        <desc>&lt;b>trackpoint #209&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7905800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0430900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7906" lon="-39.04304">
+        <desc>&lt;b>trackpoint #210&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7906000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0430400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7906" lon="-39.04302">
+        <desc>&lt;b>trackpoint #211&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7906000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0430200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79061" lon="-39.04299">
+        <desc>&lt;b>trackpoint #212&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7906100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0429900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79063" lon="-39.04283">
+        <desc>&lt;b>trackpoint #213&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7906300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0428300&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79066" lon="-39.04258">
+        <desc>&lt;b>trackpoint #214&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7906600&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0425800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79074" lon="-39.04225">
+        <desc>&lt;b>trackpoint #215&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7907400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0422500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79079" lon="-39.04171">
+        <desc>&lt;b>trackpoint #216&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7907900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0417100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79079" lon="-39.04171">
+        <desc>&lt;b>trackpoint #217&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7907900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0417100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79118" lon="-39.0417">
+        <desc>&lt;b>trackpoint #218&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7911800&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0417000&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79144" lon="-39.04168">
+        <desc>&lt;b>trackpoint #219&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7914400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0416800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79144" lon="-39.04168">
+        <desc>&lt;b>trackpoint #220&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7914400&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0416800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79173" lon="-39.04194">
+        <desc>&lt;b>trackpoint #221&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7917300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0419400&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79209" lon="-39.04225">
+        <desc>&lt;b>trackpoint #222&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7920900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0422500&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79243" lon="-39.04251">
+        <desc>&lt;b>trackpoint #223&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7924300&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0425100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79309" lon="-39.04311">
+        <desc>&lt;b>trackpoint #224&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7930900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0431100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79399" lon="-39.04409">
+        <desc>&lt;b>trackpoint #225&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7939900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0440900&#176;</desc>
+    </wpt>
+    <wpt lat="-14.7939" lon="-39.04438">
+        <desc>&lt;b>trackpoint #226&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7939000&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0443800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79381" lon="-39.04468">
+        <desc>&lt;b>trackpoint #227&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7938100&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0446800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79339" lon="-39.04611">
+        <desc>&lt;b>trackpoint #228&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7933900&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0461100&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79337" lon="-39.04622">
+        <desc>&lt;b>trackpoint #229&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7933700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0462200&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79337" lon="-39.04628">
+        <desc>&lt;b>trackpoint #230&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7933700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0462800&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79337" lon="-39.04637">
+        <desc>&lt;b>trackpoint #231&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7933700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0463700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79337" lon="-39.04637">
+        <desc>&lt;b>trackpoint #232&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7933700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0463700&#176;</desc>
+    </wpt>
+    <wpt lat="-14.79347" lon="-39.04631">
+        <desc>&lt;b>trackpoint #233&lt;/b>&lt;br/> &lt;i>Latitude:&lt;/i> -14.7934700&#176;&lt;br/> &lt;i>Longitude:&lt;/i> -39.0463100&#176;</desc>
+    </wpt>
+    
+</gpx>

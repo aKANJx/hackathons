@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203CEB3ABAE5506429F0D6D2 /* Pods_PiggyBank_SMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD17DE5B0430D5AA020DF3A /* Pods_PiggyBank_SMS.framework */; };
+		A214ADDE1DFD037D001123EE /* SMS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A214ADDD1DFD037D001123EE /* SMS.storyboard */; };
+		A21E75171DFCD99200E02AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E75161DFCD99200E02AD9 /* AppDelegate.swift */; };
+		A21E751C1DFCD99200E02AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21E751A1DFCD99200E02AD9 /* Main.storyboard */; };
+		A21E751E1DFCD99200E02AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21E751D1DFCD99200E02AD9 /* Assets.xcassets */; };
+		A21E75211DFCD99200E02AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21E751F1DFCD99200E02AD9 /* LaunchScreen.storyboard */; };
+		A22598381DFD720100FD39F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22598371DFD720100FD39F6 /* LoginViewController.swift */; };
+		A23AAF501DFD3E4B0081995D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A23AAF4F1DFD3E4B0081995D /* GoogleService-Info.plist */; };
+		A23AAF511DFD3E4B0081995D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A23AAF4F1DFD3E4B0081995D /* GoogleService-Info.plist */; };
+		A2557BDC1DFD80DE00C62962 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2557BDB1DFD80DE00C62962 /* HomeViewController.swift */; };
+		A2557BDE1DFD84F600C62962 /* LoginMovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A2557BDD1DFD84F600C62962 /* LoginMovie.mp4 */; };
+		A2557BE01DFD88AE00C62962 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2557BDF1DFD88AE00C62962 /* ModalView.swift */; };
+		A2557BE21DFD8BD300C62962 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2557BE11DFD8BD300C62962 /* FriendViewController.swift */; };
+		A289EABB1DFD14EC00F15A19 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA21031DFD0D9E0001EA1D /* APIClient.swift */; };
+		A29925351DFD46A70066AB1B /* Investment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29925341DFD46A70066AB1B /* Investment.swift */; };
+		A29925361DFD478B0066AB1B /* Investment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29925341DFD46A70066AB1B /* Investment.swift */; };
+		A2ABD40F1DFD5B8F00CEF88C /* InvestmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABD40E1DFD5B8F00CEF88C /* InvestmentTableViewCell.swift */; };
+		A2B573321DFCE8CC000A9BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E75161DFCD99200E02AD9 /* AppDelegate.swift */; };
+		A2B573361DFCE8CC000A9BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21E751F1DFCD99200E02AD9 /* LaunchScreen.storyboard */; };
+		A2B573371DFCE8CC000A9BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21E751D1DFCD99200E02AD9 /* Assets.xcassets */; };
+		A2B573381DFCE8CC000A9BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21E751A1DFCD99200E02AD9 /* Main.storyboard */; };
+		A2E1D0EA1DFD056C00187399 /* IntroContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1D0E11DFD056C00187399 /* IntroContentViewController.swift */; };
+		A2E1D0EB1DFD056C00187399 /* IntroVC.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2E1D0E21DFD056C00187399 /* IntroVC.plist */; };
+		A2E1D0EC1DFD056C00187399 /* IntroVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1D0E31DFD056C00187399 /* IntroVC1.swift */; };
+		A2E1D0ED1DFD056C00187399 /* IntroVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E1D0E41DFD056C00187399 /* IntroVC1.xib */; };
+		A2E1D0EE1DFD056C00187399 /* IntroVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1D0E51DFD056C00187399 /* IntroVC2.swift */; };
+		A2E1D0EF1DFD056C00187399 /* IntroVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E1D0E61DFD056C00187399 /* IntroVC2.xib */; };
+		A2E1D0F01DFD056C00187399 /* IntroVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1D0E71DFD056C00187399 /* IntroVC3.swift */; };
+		A2E1D0F11DFD056C00187399 /* IntroVC3.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E1D0E81DFD056C00187399 /* IntroVC3.xib */; };
+		A2E1D0F21DFD056C00187399 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1D0E91DFD056C00187399 /* IntroViewController.swift */; };
+		A2EA21041DFD0D9E0001EA1D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA21031DFD0D9E0001EA1D /* APIClient.swift */; };
+		A2FF3BED1DFD0ECF00A7D6D3 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E406321DFCDC28004EFD9F /* ChatViewController.swift */; };
+		DBF9E335AA76428ACC35EA72 /* Pods_PiggyBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E468BC432DA6F9567140C4 /* Pods_PiggyBank.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DA9796771EE09956AC70D05 /* Pods-PiggyBank-SMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiggyBank-SMS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiggyBank-SMS/Pods-PiggyBank-SMS.debug.xcconfig"; sourceTree = "<group>"; };
+		6F61561F81FA85AC82CDEEA2 /* Pods-PiggyBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiggyBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiggyBank/Pods-PiggyBank.debug.xcconfig"; sourceTree = "<group>"; };
+		85E468BC432DA6F9567140C4 /* Pods_PiggyBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiggyBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A214ADDD1DFD037D001123EE /* SMS.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SMS.storyboard; sourceTree = "<group>"; };
+		A21E75131DFCD99200E02AD9 /* PiggyBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiggyBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21E75161DFCD99200E02AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A21E751B1DFCD99200E02AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A21E751D1DFCD99200E02AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A21E75201DFCD99200E02AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A21E75221DFCD99200E02AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22598371DFD720100FD39F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A23AAF4F1DFD3E4B0081995D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A2557BDB1DFD80DE00C62962 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A2557BDD1DFD84F600C62962 /* LoginMovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoginMovie.mp4; sourceTree = "<group>"; };
+		A2557BDF1DFD88AE00C62962 /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		A2557BE11DFD8BD300C62962 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		A29925341DFD46A70066AB1B /* Investment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Investment.swift; sourceTree = "<group>"; };
+		A2ABD40E1DFD5B8F00CEF88C /* InvestmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentTableViewCell.swift; sourceTree = "<group>"; };
+		A2B5733E1DFCE8CC000A9BF4 /* PiggyBank-SMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PiggyBank-SMS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B5733F1DFCE8CC000A9BF4 /* PiggyBank-SMS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PiggyBank-SMS copy-Info.plist"; path = "/Users/jeanpaul/Library/Mobile Documents/com~apple~CloudDocs/Projects/PiggyBank/PiggyBank-SMS copy-Info.plist"; sourceTree = "<absolute>"; };
+		A2BEB6711DFD41FA000D7904 /* PiggyBank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PiggyBank.entitlements; sourceTree = "<group>"; };
+		A2E1D0E11DFD056C00187399 /* IntroContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroContentViewController.swift; sourceTree = "<group>"; };
+		A2E1D0E21DFD056C00187399 /* IntroVC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IntroVC.plist; sourceTree = "<group>"; };
+		A2E1D0E31DFD056C00187399 /* IntroVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVC1.swift; sourceTree = "<group>"; };
+		A2E1D0E41DFD056C00187399 /* IntroVC1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroVC1.xib; sourceTree = "<group>"; };
+		A2E1D0E51DFD056C00187399 /* IntroVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVC2.swift; sourceTree = "<group>"; };
+		A2E1D0E61DFD056C00187399 /* IntroVC2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroVC2.xib; sourceTree = "<group>"; };
+		A2E1D0E71DFD056C00187399 /* IntroVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVC3.swift; sourceTree = "<group>"; };
+		A2E1D0E81DFD056C00187399 /* IntroVC3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroVC3.xib; sourceTree = "<group>"; };
+		A2E1D0E91DFD056C00187399 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		A2E406321DFCDC28004EFD9F /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A2EA21031DFD0D9E0001EA1D /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		ACAD160962245A93F48A3BB9 /* Pods-PiggyBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiggyBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiggyBank/Pods-PiggyBank.release.xcconfig"; sourceTree = "<group>"; };
+		DA7B2DD42A6486B7518C361B /* Pods-PiggyBank-SMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiggyBank-SMS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiggyBank-SMS/Pods-PiggyBank-SMS.release.xcconfig"; sourceTree = "<group>"; };
+		EFD17DE5B0430D5AA020DF3A /* Pods_PiggyBank_SMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiggyBank_SMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21E75101DFCD99100E02AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF9E335AA76428ACC35EA72 /* Pods_PiggyBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B573331DFCE8CC000A9BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203CEB3ABAE5506429F0D6D2 /* Pods_PiggyBank_SMS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A21E750A1DFCD99100E02AD9 = {
+			isa = PBXGroup;
+			children = (
+				A21E75151DFCD99200E02AD9 /* PiggyBank */,
+				A21E75141DFCD99200E02AD9 /* Products */,
+				C18715BDB6795DB5DC571396 /* Pods */,
+				DFCB4A5463EE67CB3B5D42D8 /* Frameworks */,
+				A2B5733F1DFCE8CC000A9BF4 /* PiggyBank-SMS copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		A21E75141DFCD99200E02AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21E75131DFCD99200E02AD9 /* PiggyBank.app */,
+				A2B5733E1DFCE8CC000A9BF4 /* PiggyBank-SMS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A21E75151DFCD99200E02AD9 /* PiggyBank */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA21031DFD0D9E0001EA1D /* APIClient.swift */,
+				A21E751A1DFCD99200E02AD9 /* Main.storyboard */,
+				A214ADDD1DFD037D001123EE /* SMS.storyboard */,
+				A2557BDB1DFD80DE00C62962 /* HomeViewController.swift */,
+				A2E406321DFCDC28004EFD9F /* ChatViewController.swift */,
+				A29925341DFD46A70066AB1B /* Investment.swift */,
+				A2ABD40E1DFD5B8F00CEF88C /* InvestmentTableViewCell.swift */,
+				A22598371DFD720100FD39F6 /* LoginViewController.swift */,
+				A2557BDF1DFD88AE00C62962 /* ModalView.swift */,
+				A2557BE11DFD8BD300C62962 /* FriendViewController.swift */,
+				A2E1D0E01DFD053900187399 /* Intro */,
+				A21E75281DFCD9A000E02AD9 /* Supporting Files */,
+			);
+			path = PiggyBank;
+			sourceTree = "<group>";
+		};
+		A21E75281DFCD9A000E02AD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2557BDD1DFD84F600C62962 /* LoginMovie.mp4 */,
+				A2BEB6711DFD41FA000D7904 /* PiggyBank.entitlements */,
+				A23AAF4F1DFD3E4B0081995D /* GoogleService-Info.plist */,
+				A21E75161DFCD99200E02AD9 /* AppDelegate.swift */,
+				A21E751D1DFCD99200E02AD9 /* Assets.xcassets */,
+				A21E751F1DFCD99200E02AD9 /* LaunchScreen.storyboard */,
+				A21E75221DFCD99200E02AD9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2E1D0E01DFD053900187399 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				A2E1D0E11DFD056C00187399 /* IntroContentViewController.swift */,
+				A2E1D0E21DFD056C00187399 /* IntroVC.plist */,
+				A2E1D0E31DFD056C00187399 /* IntroVC1.swift */,
+				A2E1D0E41DFD056C00187399 /* IntroVC1.xib */,
+				A2E1D0E51DFD056C00187399 /* IntroVC2.swift */,
+				A2E1D0E61DFD056C00187399 /* IntroVC2.xib */,
+				A2E1D0E71DFD056C00187399 /* IntroVC3.swift */,
+				A2E1D0E81DFD056C00187399 /* IntroVC3.xib */,
+				A2E1D0E91DFD056C00187399 /* IntroViewController.swift */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		C18715BDB6795DB5DC571396 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA9796771EE09956AC70D05 /* Pods-PiggyBank-SMS.debug.xcconfig */,
+				DA7B2DD42A6486B7518C361B /* Pods-PiggyBank-SMS.release.xcconfig */,
+				6F61561F81FA85AC82CDEEA2 /* Pods-PiggyBank.debug.xcconfig */,
+				ACAD160962245A93F48A3BB9 /* Pods-PiggyBank.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFCB4A5463EE67CB3B5D42D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E468BC432DA6F9567140C4 /* Pods_PiggyBank.framework */,
+				EFD17DE5B0430D5AA020DF3A /* Pods_PiggyBank_SMS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21E75121DFCD99100E02AD9 /* PiggyBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21E75251DFCD99200E02AD9 /* Build configuration list for PBXNativeTarget "PiggyBank" */;
+			buildPhases = (
+				7B9F5AD2863EDBB8BDDAA25B /* [CP] Check Pods Manifest.lock */,
+				A21E750F1DFCD99100E02AD9 /* Sources */,
+				A21E75101DFCD99100E02AD9 /* Frameworks */,
+				A21E75111DFCD99100E02AD9 /* Resources */,
+				AB8ECC2A43A2E5B724FF5F96 /* [CP] Embed Pods Frameworks */,
+				21C80CF79022DC79AA503288 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiggyBank;
+			productName = PiggyBank;
+			productReference = A21E75131DFCD99200E02AD9 /* PiggyBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B5732E1DFCE8CC000A9BF4 /* PiggyBank-SMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B5733B1DFCE8CC000A9BF4 /* Build configuration list for PBXNativeTarget "PiggyBank-SMS" */;
+			buildPhases = (
+				2867A554A8839ED57E923CB7 /* [CP] Check Pods Manifest.lock */,
+				A2B573301DFCE8CC000A9BF4 /* Sources */,
+				A2B573331DFCE8CC000A9BF4 /* Frameworks */,
+				A2B573351DFCE8CC000A9BF4 /* Resources */,
+				6C48C5FD01F55ED0D5AC1452 /* [CP] Embed Pods Frameworks */,
+				8CAC3E7943E11C8E38F1BAAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PiggyBank-SMS";
+			productName = PiggyBank;
+			productReference = A2B5733E1DFCE8CC000A9BF4 /* PiggyBank-SMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21E750B1DFCD99100E02AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = aKANJ;
+				TargetAttributes = {
+					A21E75121DFCD99100E02AD9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = EC85G4HG9F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					A2B5732E1DFCE8CC000A9BF4 = {
+						DevelopmentTeam = EC85G4HG9F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A21E750E1DFCD99100E02AD9 /* Build configuration list for PBXProject "PiggyBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A21E750A1DFCD99100E02AD9;
+			productRefGroup = A21E75141DFCD99200E02AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21E75121DFCD99100E02AD9 /* PiggyBank */,
+				A2B5732E1DFCE8CC000A9BF4 /* PiggyBank-SMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21E75111DFCD99100E02AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E1D0EF1DFD056C00187399 /* IntroVC2.xib in Resources */,
+				A23AAF501DFD3E4B0081995D /* GoogleService-Info.plist in Resources */,
+				A2E1D0EB1DFD056C00187399 /* IntroVC.plist in Resources */,
+				A2E1D0ED1DFD056C00187399 /* IntroVC1.xib in Resources */,
+				A2557BDE1DFD84F600C62962 /* LoginMovie.mp4 in Resources */,
+				A2E1D0F11DFD056C00187399 /* IntroVC3.xib in Resources */,
+				A21E75211DFCD99200E02AD9 /* LaunchScreen.storyboard in Resources */,
+				A21E751E1DFCD99200E02AD9 /* Assets.xcassets in Resources */,
+				A21E751C1DFCD99200E02AD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B573351DFCE8CC000A9BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A214ADDE1DFD037D001123EE /* SMS.storyboard in Resources */,
+				A2B573361DFCE8CC000A9BF4 /* LaunchScreen.storyboard in Resources */,
+				A23AAF511DFD3E4B0081995D /* GoogleService-Info.plist in Resources */,
+				A2B573371DFCE8CC000A9BF4 /* Assets.xcassets in Resources */,
+				A2B573381DFCE8CC000A9BF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C80CF79022DC79AA503288 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiggyBank/Pods-PiggyBank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2867A554A8839ED57E923CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C48C5FD01F55ED0D5AC1452 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiggyBank-SMS/Pods-PiggyBank-SMS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9F5AD2863EDBB8BDDAA25B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CAC3E7943E11C8E38F1BAAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiggyBank-SMS/Pods-PiggyBank-SMS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8ECC2A43A2E5B724FF5F96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiggyBank/Pods-PiggyBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21E750F1DFCD99100E02AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E1D0F21DFD056C00187399 /* IntroViewController.swift in Sources */,
+				A2E1D0F01DFD056C00187399 /* IntroVC3.swift in Sources */,
+				A2557BE21DFD8BD300C62962 /* FriendViewController.swift in Sources */,
+				A2ABD40F1DFD5B8F00CEF88C /* InvestmentTableViewCell.swift in Sources */,
+				A2E1D0EA1DFD056C00187399 /* IntroContentViewController.swift in Sources */,
+				A21E75171DFCD99200E02AD9 /* AppDelegate.swift in Sources */,
+				A29925351DFD46A70066AB1B /* Investment.swift in Sources */,
+				A2557BE01DFD88AE00C62962 /* ModalView.swift in Sources */,
+				A2E1D0EE1DFD056C00187399 /* IntroVC2.swift in Sources */,
+				A2E1D0EC1DFD056C00187399 /* IntroVC1.swift in Sources */,
+				A2EA21041DFD0D9E0001EA1D /* APIClient.swift in Sources */,
+				A22598381DFD720100FD39F6 /* LoginViewController.swift in Sources */,
+				A2557BDC1DFD80DE00C62962 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B573301DFCE8CC000A9BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29925361DFD478B0066AB1B /* Investment.swift in Sources */,
+				A2FF3BED1DFD0ECF00A7D6D3 /* ChatViewController.swift in Sources */,
+				A2B573321DFCE8CC000A9BF4 /* AppDelegate.swift in Sources */,
+				A289EABB1DFD14EC00F15A19 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A21E751A1DFCD99200E02AD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21E751B1DFCD99200E02AD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A21E751F1DFCD99200E02AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21E75201DFCD99200E02AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21E75231DFCD99200E02AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A21E75241DFCD99200E02AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A21E75261DFCD99200E02AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F61561F81FA85AC82CDEEA2 /* Pods-PiggyBank.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PiggyBank/PiggyBank.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PiggyBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hackathon.Piggly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A21E75271DFCD99200E02AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAD160962245A93F48A3BB9 /* Pods-PiggyBank.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PiggyBank/PiggyBank.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PiggyBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hackathon.Piggly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A2B5733C1DFCE8CC000A9BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA9796771EE09956AC70D05 /* Pods-PiggyBank-SMS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = EC85G4HG9F;
+				INFOPLIST_FILE = "PiggyBank-SMS copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hackathon.Piggly-SMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A2B5733D1DFCE8CC000A9BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7B2DD42A6486B7518C361B /* Pods-PiggyBank-SMS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = EC85G4HG9F;
+				INFOPLIST_FILE = "PiggyBank-SMS copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hackathon.Piggly-SMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21E750E1DFCD99100E02AD9 /* Build configuration list for PBXProject "PiggyBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21E75231DFCD99200E02AD9 /* Debug */,
+				A21E75241DFCD99200E02AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21E75251DFCD99200E02AD9 /* Build configuration list for PBXNativeTarget "PiggyBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21E75261DFCD99200E02AD9 /* Debug */,
+				A21E75271DFCD99200E02AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B5733B1DFCE8CC000A9BF4 /* Build configuration list for PBXNativeTarget "PiggyBank-SMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B5733C1DFCE8CC000A9BF4 /* Debug */,
+				A2B5733D1DFCE8CC000A9BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21E750B1DFCD99100E02AD9 /* Project object */;
+}

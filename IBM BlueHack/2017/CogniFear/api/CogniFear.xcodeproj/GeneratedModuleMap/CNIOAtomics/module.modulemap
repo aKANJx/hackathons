@@ -1,0 +1,4 @@
+module CNIOAtomics {
+    umbrella "/Users/akanj/Projects/CogniFear/web-api/.build/checkouts/swift-nio.git--5047310250405238995/Sources/CNIOAtomics/include"
+    export *
+}

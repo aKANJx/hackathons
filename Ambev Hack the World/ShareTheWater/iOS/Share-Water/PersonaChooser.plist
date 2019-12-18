@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>donator-image</string>
+		<key>title</key>
+		<string>Doador Financeiro</string>
+		<key>about</key>
+		<string>Tenho algumas moedas sobrando e quero contribuir :)</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>transport-image</string>
+		<key>title</key>
+		<string>Meio de Transporte</string>
+		<key>about</key>
+		<string>Consigo buscar e levar água para algum lugar do Brasil</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>well-image</string>
+		<key>title</key>
+		<string>Fornecedor de Fontes</string>
+		<key>about</key>
+		<string>Possuo um fonte de água potável</string>
+	</dict>
+</array>
+</plist>

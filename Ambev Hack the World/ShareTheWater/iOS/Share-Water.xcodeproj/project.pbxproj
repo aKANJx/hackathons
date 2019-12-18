@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573E597F1E537A520019D5B2 /* DeliveryFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E597E1E537A520019D5B2 /* DeliveryFinalViewController.swift */; };
+		573E59811E537B430019D5B2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E59801E537B430019D5B2 /* APIClient.swift */; };
+		5760E2E51E54B60700C35805 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760E2E41E54B60700C35805 /* UIApplicationExtension.swift */; };
+		577B77D71E53F9C9007B80A1 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B77D61E53F9C9007B80A1 /* IntroViewController.swift */; };
+		577B77D91E53FB70007B80A1 /* water.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 577B77D81E53FB70007B80A1 /* water.mp4 */; };
+		577B77DB1E54031B007B80A1 /* PersonaChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B77DA1E54031B007B80A1 /* PersonaChooserViewController.swift */; };
+		577B77DD1E540831007B80A1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B77DC1E540831007B80A1 /* CardView.swift */; };
+		577B77DF1E540DD9007B80A1 /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B77DE1E540DD9007B80A1 /* GradientBackgroundView.swift */; };
+		577B77E11E540ECB007B80A1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B77E01E540ECB007B80A1 /* UIColorExtension.swift */; };
+		57B48DB21E548B3E00CCB7F7 /* Simplify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B48DB11E548B3E00CCB7F7 /* Simplify.framework */; };
+		57B48DB41E548B7700CCB7F7 /* Simplify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57B48DB31E548B7700CCB7F7 /* Simplify.bundle */; };
+		57B48DB51E548B9800CCB7F7 /* Simplify.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B48DB31E548B7700CCB7F7 /* Simplify.bundle */; };
+		57B48DBB1E548E4D00CCB7F7 /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B48DBA1E548E4D00CCB7F7 /* DeliveryViewController.swift */; };
+		57B48DBD1E548E5800CCB7F7 /* DeliveryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B48DBC1E548E5800CCB7F7 /* DeliveryDetailViewController.swift */; };
+		57B48DBF1E548E8100CCB7F7 /* GPSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B48DBE1E548E8100CCB7F7 /* GPSController.swift */; };
+		57BF65401E5413B8008EBF5B /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF653F1E5413B8008EBF5B /* WaterView.swift */; };
+		57BF65421E541435008EBF5B /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF65411E541435008EBF5B /* ArcLayer.swift */; };
+		57BF65441E5415DA008EBF5B /* MoneyDonatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF65431E5415DA008EBF5B /* MoneyDonatorViewController.swift */; };
+		57C11D551E54A6DE0088BD29 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 57C11D541E54A6DE0088BD29 /* Location.gpx */; };
+		57CD0C551E537965009688B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD0C541E537965009688B1 /* AppDelegate.swift */; };
+		57CD0C5A1E537965009688B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CD0C581E537965009688B1 /* Main.storyboard */; };
+		57CD0C5C1E537965009688B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CD0C5B1E537965009688B1 /* Assets.xcassets */; };
+		57CD0C5F1E537965009688B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CD0C5D1E537965009688B1 /* LaunchScreen.storyboard */; };
+		57DA982C1E546DCB006F761A /* PersonaChooser.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57DA982B1E546DCB006F761A /* PersonaChooser.plist */; };
+		57DA982E1E546E5E006F761A /* PersonaChooserCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DA982D1E546E5E006F761A /* PersonaChooserCardCell.swift */; };
+		9BA091B0F779F1B88943D9BB /* Pods_Share_Water.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420FBFB4CA3813C7C5E532CA /* Pods_Share_Water.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1496D27E03B4589FBC740076 /* Pods-Share-Water.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share-Water.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Share-Water/Pods-Share-Water.debug.xcconfig"; sourceTree = "<group>"; };
+		420FBFB4CA3813C7C5E532CA /* Pods_Share_Water.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Share_Water.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		573E597E1E537A520019D5B2 /* DeliveryFinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryFinalViewController.swift; sourceTree = "<group>"; };
+		573E59801E537B430019D5B2 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5760E2E41E54B60700C35805 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		577B77D61E53F9C9007B80A1 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		577B77D81E53FB70007B80A1 /* water.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = water.mp4; sourceTree = "<group>"; };
+		577B77DA1E54031B007B80A1 /* PersonaChooserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonaChooserViewController.swift; sourceTree = "<group>"; };
+		577B77DC1E540831007B80A1 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		577B77DE1E540DD9007B80A1 /* GradientBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
+		577B77E01E540ECB007B80A1 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		57B48DB11E548B3E00CCB7F7 /* Simplify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Simplify.framework; sourceTree = "<group>"; };
+		57B48DB31E548B7700CCB7F7 /* Simplify.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Simplify.bundle; sourceTree = "<group>"; };
+		57B48DB61E548C3A00CCB7F7 /* Share-Water-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Share-Water-Bridging-Header.h"; sourceTree = "<group>"; };
+		57B48DBA1E548E4D00CCB7F7 /* DeliveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
+		57B48DBC1E548E5800CCB7F7 /* DeliveryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryDetailViewController.swift; sourceTree = "<group>"; };
+		57B48DBE1E548E8100CCB7F7 /* GPSController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSController.swift; sourceTree = "<group>"; };
+		57BF653F1E5413B8008EBF5B /* WaterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		57BF65411E541435008EBF5B /* ArcLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
+		57BF65431E5415DA008EBF5B /* MoneyDonatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyDonatorViewController.swift; sourceTree = "<group>"; };
+		57C11D541E54A6DE0088BD29 /* Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		57CD0C511E537965009688B1 /* Share-Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Share-Water.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CD0C541E537965009688B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57CD0C591E537965009688B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57CD0C5B1E537965009688B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57CD0C5E1E537965009688B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57CD0C601E537965009688B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DA982B1E546DCB006F761A /* PersonaChooser.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PersonaChooser.plist; sourceTree = "<group>"; };
+		57DA982D1E546E5E006F761A /* PersonaChooserCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonaChooserCardCell.swift; sourceTree = "<group>"; };
+		9CC14C9BE63A839BE8C1C30B /* Pods-Share-Water.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share-Water.release.xcconfig"; path = "Pods/Target Support Files/Pods-Share-Water/Pods-Share-Water.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CD0C4E1E537965009688B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA091B0F779F1B88943D9BB /* Pods_Share_Water.framework in Frameworks */,
+				57B48DB21E548B3E00CCB7F7 /* Simplify.framework in Frameworks */,
+				57B48DB51E548B9800CCB7F7 /* Simplify.bundle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163EA300F952DA7E260B3AFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1496D27E03B4589FBC740076 /* Pods-Share-Water.debug.xcconfig */,
+				9CC14C9BE63A839BE8C1C30B /* Pods-Share-Water.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		37821A097A7EDADB84FFF939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57B48DB31E548B7700CCB7F7 /* Simplify.bundle */,
+				57B48DB11E548B3E00CCB7F7 /* Simplify.framework */,
+				420FBFB4CA3813C7C5E532CA /* Pods_Share_Water.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573E597D1E5379DD0019D5B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5760E2E41E54B60700C35805 /* UIApplicationExtension.swift */,
+				57C11D541E54A6DE0088BD29 /* Location.gpx */,
+				57DA982B1E546DCB006F761A /* PersonaChooser.plist */,
+				57BF65411E541435008EBF5B /* ArcLayer.swift */,
+				577B77E01E540ECB007B80A1 /* UIColorExtension.swift */,
+				577B77D81E53FB70007B80A1 /* water.mp4 */,
+				57CD0C541E537965009688B1 /* AppDelegate.swift */,
+				57CD0C5B1E537965009688B1 /* Assets.xcassets */,
+				57CD0C5D1E537965009688B1 /* LaunchScreen.storyboard */,
+				57CD0C601E537965009688B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57CD0C481E537965009688B1 = {
+			isa = PBXGroup;
+			children = (
+				57CD0C531E537965009688B1 /* Share-Water */,
+				57CD0C521E537965009688B1 /* Products */,
+				163EA300F952DA7E260B3AFA /* Pods */,
+				37821A097A7EDADB84FFF939 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57CD0C521E537965009688B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CD0C511E537965009688B1 /* Share-Water.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CD0C531E537965009688B1 /* Share-Water */ = {
+			isa = PBXGroup;
+			children = (
+				57CD0C581E537965009688B1 /* Main.storyboard */,
+				57DA982D1E546E5E006F761A /* PersonaChooserCardCell.swift */,
+				573E59801E537B430019D5B2 /* APIClient.swift */,
+				577B77D61E53F9C9007B80A1 /* IntroViewController.swift */,
+				577B77DA1E54031B007B80A1 /* PersonaChooserViewController.swift */,
+				57BF65431E5415DA008EBF5B /* MoneyDonatorViewController.swift */,
+				573E597E1E537A520019D5B2 /* DeliveryFinalViewController.swift */,
+				577B77DC1E540831007B80A1 /* CardView.swift */,
+				577B77DE1E540DD9007B80A1 /* GradientBackgroundView.swift */,
+				57BF653F1E5413B8008EBF5B /* WaterView.swift */,
+				573E597D1E5379DD0019D5B2 /* Supporting Files */,
+				57B48DB61E548C3A00CCB7F7 /* Share-Water-Bridging-Header.h */,
+				57B48DBA1E548E4D00CCB7F7 /* DeliveryViewController.swift */,
+				57B48DBC1E548E5800CCB7F7 /* DeliveryDetailViewController.swift */,
+				57B48DBE1E548E8100CCB7F7 /* GPSController.swift */,
+			);
+			path = "Share-Water";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57CD0C501E537965009688B1 /* Share-Water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CD0C631E537965009688B1 /* Build configuration list for PBXNativeTarget "Share-Water" */;
+			buildPhases = (
+				14B0BD858E63B47210C86A2A /* [CP] Check Pods Manifest.lock */,
+				57CD0C4D1E537965009688B1 /* Sources */,
+				57CD0C4E1E537965009688B1 /* Frameworks */,
+				57CD0C4F1E537965009688B1 /* Resources */,
+				247A39D934FA76A7665C5EDF /* [CP] Embed Pods Frameworks */,
+				F40455B03DAB177B00688C27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Share-Water";
+			productName = "Share-Water";
+			productReference = 57CD0C511E537965009688B1 /* Share-Water.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CD0C491E537965009688B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = aKANJ;
+				TargetAttributes = {
+					57CD0C501E537965009688B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7X2QX4QAP3;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57CD0C4C1E537965009688B1 /* Build configuration list for PBXProject "Share-Water" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57CD0C481E537965009688B1;
+			productRefGroup = 57CD0C521E537965009688B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CD0C501E537965009688B1 /* Share-Water */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CD0C4F1E537965009688B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CD0C5F1E537965009688B1 /* LaunchScreen.storyboard in Resources */,
+				57C11D551E54A6DE0088BD29 /* Location.gpx in Resources */,
+				57CD0C5C1E537965009688B1 /* Assets.xcassets in Resources */,
+				57CD0C5A1E537965009688B1 /* Main.storyboard in Resources */,
+				57DA982C1E546DCB006F761A /* PersonaChooser.plist in Resources */,
+				57B48DB41E548B7700CCB7F7 /* Simplify.bundle in Resources */,
+				577B77D91E53FB70007B80A1 /* water.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14B0BD858E63B47210C86A2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		247A39D934FA76A7665C5EDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Share-Water/Pods-Share-Water-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40455B03DAB177B00688C27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Share-Water/Pods-Share-Water-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CD0C4D1E537965009688B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573E597F1E537A520019D5B2 /* DeliveryFinalViewController.swift in Sources */,
+				577B77DB1E54031B007B80A1 /* PersonaChooserViewController.swift in Sources */,
+				57B48DBB1E548E4D00CCB7F7 /* DeliveryViewController.swift in Sources */,
+				57BF65421E541435008EBF5B /* ArcLayer.swift in Sources */,
+				57CD0C551E537965009688B1 /* AppDelegate.swift in Sources */,
+				57BF65441E5415DA008EBF5B /* MoneyDonatorViewController.swift in Sources */,
+				5760E2E51E54B60700C35805 /* UIApplicationExtension.swift in Sources */,
+				57BF65401E5413B8008EBF5B /* WaterView.swift in Sources */,
+				57B48DBD1E548E5800CCB7F7 /* DeliveryDetailViewController.swift in Sources */,
+				577B77E11E540ECB007B80A1 /* UIColorExtension.swift in Sources */,
+				577B77DF1E540DD9007B80A1 /* GradientBackgroundView.swift in Sources */,
+				57B48DBF1E548E8100CCB7F7 /* GPSController.swift in Sources */,
+				57DA982E1E546E5E006F761A /* PersonaChooserCardCell.swift in Sources */,
+				573E59811E537B430019D5B2 /* APIClient.swift in Sources */,
+				577B77DD1E540831007B80A1 /* CardView.swift in Sources */,
+				577B77D71E53F9C9007B80A1 /* IntroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57CD0C581E537965009688B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CD0C591E537965009688B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57CD0C5D1E537965009688B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CD0C5E1E537965009688B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57CD0C611E537965009688B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57CD0C621E537965009688B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57CD0C641E537965009688B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1496D27E03B4589FBC740076 /* Pods-Share-Water.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7X2QX4QAP3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Share-Water/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"EFSweetAlert\"",
+					"-framework",
+					"\"GhostTypewriter\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aKANJDev.Share-Water";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Share-Water/Share-Water-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57CD0C651E537965009688B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC14C9BE63A839BE8C1C30B /* Pods-Share-Water.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7X2QX4QAP3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Share-Water/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"EFSweetAlert\"",
+					"-framework",
+					"\"GhostTypewriter\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aKANJDev.Share-Water";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Share-Water/Share-Water-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57CD0C4C1E537965009688B1 /* Build configuration list for PBXProject "Share-Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CD0C611E537965009688B1 /* Debug */,
+				57CD0C621E537965009688B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CD0C631E537965009688B1 /* Build configuration list for PBXNativeTarget "Share-Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CD0C641E537965009688B1 /* Debug */,
+				57CD0C651E537965009688B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57CD0C491E537965009688B1 /* Project object */;
+}

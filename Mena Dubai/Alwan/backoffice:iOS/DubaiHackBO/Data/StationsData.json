@@ -1,0 +1,85 @@
+ [{
+  "name": "Red",
+  "stations": [{
+               "name": "Rashidiya",
+               "activeUsers": 100
+               },
+               {
+               "name": "Emirates",
+               "activeUsers": 200
+               },
+               {
+               "name": "Airport Terminal 3",
+               "activeUsers": 200
+               },
+               {
+               "name": "Airport Terminal 1",
+               "activeUsers": 200
+               },
+               {
+               "name": "GGICO",
+               "activeUsers": 200
+               },
+               {
+               "name": "Deira City Centre",
+               "activeUsers": 200
+               },
+               {
+               "name": "Al Rigga",
+               "activeUsers": 200
+               }, {
+               "name": "Union",
+               "activeUsers": 200
+               }, {
+               "name": "BurJuman",
+               "activeUsers": 200
+               }, {
+               "name": "ADCB",
+               "activeUsers": 200
+               }, {
+               "name": "Al Jafiliya",
+               "activeUsers": 200
+               }, {
+               "name": "World Trade Centre",
+               "activeUsers": 200
+               }, {
+               "name": "Emirates Towers",
+               "activeUsers": 200
+               }, {
+               "name": "Financial Centre",
+               "activeUsers": 200
+               }, {
+               "name": "Burj Khalifa/ Dubai Mall",
+               "activeUsers": 200
+               }
+               ]
+  },
+  {
+  "name": "Green",
+  "stations": [{
+               "name": "Etisalat",
+               "activeUsers": 200
+               },
+               {
+               "name": "Al Qusais",
+               "activeUsers": 200
+               },
+               {
+               "name": "Dubai Airport Free Zone",
+               "activeUsers": 200
+               },
+               {
+               "name": "Al Nahda",
+               "activeUsers": 200
+               },
+               {
+               "name": "Stadium",
+               "activeUsers": 200
+               },
+               {
+               "name": "Al Qiyadah",
+               "activeUsers": 200
+               }
+               ]
+  }
+  ]

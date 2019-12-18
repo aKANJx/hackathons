@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2dg-7w-fsy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PiggyBank-->
+        <scene sceneID="kXZ-CG-t6C">
+            <objects>
+                <viewController id="zFe-kf-BQo" customClass="ChatViewController" customModule="PiggyBank_SMS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DRU-NX-4MC"/>
+                        <viewControllerLayoutGuide type="bottom" id="xDL-vV-Cgg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qbj-TC-fOS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PiggyBank" id="gr9-An-Zsu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="csN-oo-XBA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="-646"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gDL-hp-6OA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2dg-7w-fsy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o8g-5g-MLW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zFe-kf-BQo" kind="relationship" relationship="rootViewController" id="I1G-7v-cIR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ygR-XU-vML" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="-645.42728635682158"/>
+        </scene>
+    </scenes>
+</document>

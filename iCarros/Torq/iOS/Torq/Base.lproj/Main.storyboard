@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.23.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NZs-4q-yrU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="aXW-FQ-gMs">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="NZs-4q-yrU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NLh-Mh-jTe">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2o1-Qs-mza" kind="relationship" relationship="viewControllers" id="9TA-CM-Hb0"/>
+                        <segue destination="5HU-5O-W7X" kind="relationship" relationship="viewControllers" id="vo0-bX-qhR"/>
+                        <segue destination="lWW-uV-fZh" kind="relationship" relationship="viewControllers" id="kYh-1E-wFR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NMl-W1-OKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Activity-->
+        <scene sceneID="HeK-Hb-7V8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Activity" id="2o1-Qs-mza" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Nds-we-y0n"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hbx-ac-uNw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+        </scene>
+        <!--CarData-->
+        <scene sceneID="AKP-wq-0VA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CarData" id="5HU-5O-W7X" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Y4q-q7-LU3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dIR-ka-zo7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1072" y="191"/>
+        </scene>
+        <!--Explore-->
+        <scene sceneID="QTh-Te-U0e">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Explore" id="lWW-uV-fZh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="explorartabbar3" selectedImage="explorartabbar3" id="eo5-LR-y7O"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ism-pM-T78" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069" y="252"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="explorartabbar3" width="24" height="24"/>
+    </resources>
+</document>

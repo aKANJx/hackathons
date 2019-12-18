@@ -1,0 +1,6 @@
+framework module Pods_XPFlow {
+  umbrella header "Pods-XPFlow-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>PAECA</string>
+		<key>Image</key>
+		<string>ProjectFriend1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>De mãos Dadas</string>
+		<key>Image</key>
+		<string>ProjectFriend2</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Resgatando Sonhos</string>
+		<key>Image</key>
+		<string>ProjectFriend3</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Programa Reconstruir</string>
+		<key>Image</key>
+		<string>ProjectFriend4</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Programa Girassol</string>
+		<key>Image</key>
+		<string>ProjectFriend5</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Catavento</string>
+		<key>Image</key>
+		<string>ProjectFriend6</string>
+	</dict>
+</array>
+</plist>

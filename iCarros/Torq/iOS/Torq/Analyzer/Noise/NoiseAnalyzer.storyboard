@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.23.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mfo-TC-a7k">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Noise Analyzer View Controller-->
+        <scene sceneID="7VU-x8-PUb">
+            <objects>
+                <viewController id="Mfo-TC-a7k" customClass="NoiseAnalyzerViewController" customModule="Torq" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZCQ-Fp-Ct3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RH2-IK-tHp" customClass="CameraView" customModule="Torq" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wS0-TB-Zvd" customClass="AudioVisualizationView" customModule="SoundWave">
+                                <rect key="frame" x="0.0" y="515" width="414" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZu-fH-tY5">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icons8-cancel-filled-100"/>
+                                <connections>
+                                    <action selector="dismissPressed:" destination="Mfo-TC-a7k" eventType="touchUpInside" id="enH-oe-HtN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Acelere até 3000RPM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpO-bd-dtm">
+                                <rect key="frame" x="20" y="480" width="374" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vej-Ba-5v1" firstAttribute="bottom" secondItem="RH2-IK-tHp" secondAttribute="bottom" id="M2a-pj-Ra4"/>
+                            <constraint firstItem="RH2-IK-tHp" firstAttribute="leading" secondItem="vej-Ba-5v1" secondAttribute="leading" id="Vgt-nQ-Mcc"/>
+                            <constraint firstItem="vej-Ba-5v1" firstAttribute="trailing" secondItem="RH2-IK-tHp" secondAttribute="trailing" id="kVZ-0E-FhN"/>
+                            <constraint firstItem="vej-Ba-5v1" firstAttribute="top" secondItem="RH2-IK-tHp" secondAttribute="top" constant="20" id="zqY-pH-xi9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vej-Ba-5v1"/>
+                    </view>
+                    <connections>
+                        <outlet property="cameraView" destination="RH2-IK-tHp" id="abv-b5-HdE"/>
+                        <outlet property="waveView" destination="wS0-TB-Zvd" id="wF4-ZL-2cz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nmn-1h-Hye" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276.81159420289856" y="51.358695652173914"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-cancel-filled-100" width="75" height="75"/>
+    </resources>
+</document>

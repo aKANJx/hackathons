@@ -1,0 +1,6 @@
+framework module Pods_HackathonMetropolitana {
+  umbrella header "Pods-HackathonMetropolitana-umbrella.h"
+
+  export *
+  module * { export * }
+}

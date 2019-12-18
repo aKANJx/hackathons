@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BAF6E081B9C4EA33C066A1D /* Pods_Abramit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66BD3270D01B251C0B495D1 /* Pods_Abramit.framework */; };
+		5752FA321FBC3ECF00443902 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5752FA311FBC3ECF00443902 /* PaymentViewController.swift */; };
+		5757B1A51FBC762F003491E2 /* EstatesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1A41FBC762F003491E2 /* EstatesCell.swift */; };
+		5757B1A71FBC7FC8003491E2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1A61FBC7FC8003491E2 /* APIClient.swift */; };
+		5757B1A91FBC8128003491E2 /* EstateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1A81FBC8128003491E2 /* EstateDetailViewController.swift */; };
+		5757B1AB1FBC880C003491E2 /* ContainerBuddiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1AA1FBC880C003491E2 /* ContainerBuddiesViewController.swift */; };
+		57A9724B1FBC1C9C001DE264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A9724A1FBC1C9C001DE264 /* AppDelegate.swift */; };
+		57A9724D1FBC1C9C001DE264 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A9724C1FBC1C9C001DE264 /* ProfileViewController.swift */; };
+		57A972501FBC1C9C001DE264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A9724E1FBC1C9C001DE264 /* Main.storyboard */; };
+		57A972521FBC1C9C001DE264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A972511FBC1C9C001DE264 /* Assets.xcassets */; };
+		57A972551FBC1C9C001DE264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A972531FBC1C9C001DE264 /* LaunchScreen.storyboard */; };
+		57D313D51FBC2E6E00C160A1 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D313D41FBC2E6E00C160A1 /* ProfileCell.swift */; };
+		57D313D91FBC328D00C160A1 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D313D81FBC328D00C160A1 /* CircleView.swift */; };
+		57FFB9991FBC6A7E00C59133 /* EstatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFB9981FBC6A7E00C59133 /* EstatesViewController.swift */; };
+		57FFB99D1FBC71E800C59133 /* Estate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFB99C1FBC71E800C59133 /* Estate.swift */; };
+		57FFB99F1FBC72CF00C59133 /* Estates.json in Resources */ = {isa = PBXBuildFile; fileRef = 57FFB99E1FBC72CF00C59133 /* Estates.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5752FA411FBC458E00443902 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5752FA471FBC45F600443902 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1612CF2C8BDBD994D0E5D21A /* Pods-Abramit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abramit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abramit/Pods-Abramit.debug.xcconfig"; sourceTree = "<group>"; };
+		5752FA311FBC3ECF00443902 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		5752FA351FBC409900443902 /* Abramit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Abramit-Bridging-Header.h"; sourceTree = "<group>"; };
+		5757B1A41FBC762F003491E2 /* EstatesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstatesCell.swift; sourceTree = "<group>"; };
+		5757B1A61FBC7FC8003491E2 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5757B1A81FBC8128003491E2 /* EstateDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstateDetailViewController.swift; sourceTree = "<group>"; };
+		5757B1AA1FBC880C003491E2 /* ContainerBuddiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerBuddiesViewController.swift; sourceTree = "<group>"; };
+		57A972471FBC1C9C001DE264 /* Abramit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abramit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A9724A1FBC1C9C001DE264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57A9724C1FBC1C9C001DE264 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		57A9724F1FBC1C9C001DE264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57A972511FBC1C9C001DE264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57A972541FBC1C9C001DE264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57A972561FBC1C9C001DE264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D313D41FBC2E6E00C160A1 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		57D313D81FBC328D00C160A1 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		57FFB9981FBC6A7E00C59133 /* EstatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstatesViewController.swift; sourceTree = "<group>"; };
+		57FFB99C1FBC71E800C59133 /* Estate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estate.swift; sourceTree = "<group>"; };
+		57FFB99E1FBC72CF00C59133 /* Estates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Estates.json; sourceTree = "<group>"; };
+		A66BD3270D01B251C0B495D1 /* Pods_Abramit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abramit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAF29AB5B8B395AC77F00B8 /* Pods-Abramit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abramit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abramit/Pods-Abramit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57A972441FBC1C9C001DE264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAF6E081B9C4EA33C066A1D /* Pods_Abramit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5752FA441FBC45F300443902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66BD3270D01B251C0B495D1 /* Pods_Abramit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57A9723E1FBC1C9C001DE264 = {
+			isa = PBXGroup;
+			children = (
+				57A972491FBC1C9C001DE264 /* Abramit */,
+				57A972481FBC1C9C001DE264 /* Products */,
+				5752FA441FBC45F300443902 /* Frameworks */,
+				8B212FC03743F7267AC8647A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		57A972481FBC1C9C001DE264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A972471FBC1C9C001DE264 /* Abramit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A972491FBC1C9C001DE264 /* Abramit */ = {
+			isa = PBXGroup;
+			children = (
+				5757B1A61FBC7FC8003491E2 /* APIClient.swift */,
+				57A9724E1FBC1C9C001DE264 /* Main.storyboard */,
+				5757B1AA1FBC880C003491E2 /* ContainerBuddiesViewController.swift */,
+				57FFB9981FBC6A7E00C59133 /* EstatesViewController.swift */,
+				5757B1A81FBC8128003491E2 /* EstateDetailViewController.swift */,
+				57FFB99C1FBC71E800C59133 /* Estate.swift */,
+				5757B1A41FBC762F003491E2 /* EstatesCell.swift */,
+				57A9724C1FBC1C9C001DE264 /* ProfileViewController.swift */,
+				5752FA311FBC3ECF00443902 /* PaymentViewController.swift */,
+				57D313D41FBC2E6E00C160A1 /* ProfileCell.swift */,
+				57D313D81FBC328D00C160A1 /* CircleView.swift */,
+				57A9725C1FBC1CA7001DE264 /* Supporting Files */,
+				5752FA351FBC409900443902 /* Abramit-Bridging-Header.h */,
+			);
+			path = Abramit;
+			sourceTree = "<group>";
+		};
+		57A9725C1FBC1CA7001DE264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A9724A1FBC1C9C001DE264 /* AppDelegate.swift */,
+				57A972511FBC1C9C001DE264 /* Assets.xcassets */,
+				57A972531FBC1C9C001DE264 /* LaunchScreen.storyboard */,
+				57A972561FBC1C9C001DE264 /* Info.plist */,
+				57FFB99E1FBC72CF00C59133 /* Estates.json */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B212FC03743F7267AC8647A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1612CF2C8BDBD994D0E5D21A /* Pods-Abramit.debug.xcconfig */,
+				CFAF29AB5B8B395AC77F00B8 /* Pods-Abramit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57A972461FBC1C9C001DE264 /* Abramit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A972591FBC1C9C001DE264 /* Build configuration list for PBXNativeTarget "Abramit" */;
+			buildPhases = (
+				25E686DAD8C8977901028C3C /* [CP] Check Pods Manifest.lock */,
+				57A972431FBC1C9C001DE264 /* Sources */,
+				57A972441FBC1C9C001DE264 /* Frameworks */,
+				57A972451FBC1C9C001DE264 /* Resources */,
+				5752FA411FBC458E00443902 /* Embed Frameworks */,
+				5752FA471FBC45F600443902 /* Embed PlugIns */,
+				CE33F13C6265650120A28D53 /* [CP] Embed Pods Frameworks */,
+				54D1C5077511DB98A50E3DA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abramit;
+			productName = Abramit;
+			productReference = 57A972471FBC1C9C001DE264 /* Abramit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57A9723F1FBC1C9C001DE264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = aKANJ;
+				TargetAttributes = {
+					57A972461FBC1C9C001DE264 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57A972421FBC1C9C001DE264 /* Build configuration list for PBXProject "Abramit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57A9723E1FBC1C9C001DE264;
+			productRefGroup = 57A972481FBC1C9C001DE264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57A972461FBC1C9C001DE264 /* Abramit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57A972451FBC1C9C001DE264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A972551FBC1C9C001DE264 /* LaunchScreen.storyboard in Resources */,
+				57FFB99F1FBC72CF00C59133 /* Estates.json in Resources */,
+				57A972521FBC1C9C001DE264 /* Assets.xcassets in Resources */,
+				57A972501FBC1C9C001DE264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25E686DAD8C8977901028C3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Abramit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D1C5077511DB98A50E3DA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abramit/Pods-Abramit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE33F13C6265650120A28D53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Abramit/Pods-Abramit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cards/Cards.framework",
+				"${BUILT_PRODUCTS_DIR}/DrawerKit/DrawerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/Player/Player.framework",
+				"${BUILT_PRODUCTS_DIR}/YBSlantedCollectionViewLayout/YBSlantedCollectionViewLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cards.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DrawerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Player.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YBSlantedCollectionViewLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abramit/Pods-Abramit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A972431FBC1C9C001DE264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D313D91FBC328D00C160A1 /* CircleView.swift in Sources */,
+				57FFB99D1FBC71E800C59133 /* Estate.swift in Sources */,
+				57D313D51FBC2E6E00C160A1 /* ProfileCell.swift in Sources */,
+				57FFB9991FBC6A7E00C59133 /* EstatesViewController.swift in Sources */,
+				5757B1AB1FBC880C003491E2 /* ContainerBuddiesViewController.swift in Sources */,
+				5752FA321FBC3ECF00443902 /* PaymentViewController.swift in Sources */,
+				5757B1A51FBC762F003491E2 /* EstatesCell.swift in Sources */,
+				57A9724D1FBC1C9C001DE264 /* ProfileViewController.swift in Sources */,
+				57A9724B1FBC1C9C001DE264 /* AppDelegate.swift in Sources */,
+				5757B1A91FBC8128003491E2 /* EstateDetailViewController.swift in Sources */,
+				5757B1A71FBC7FC8003491E2 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57A9724E1FBC1C9C001DE264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A9724F1FBC1C9C001DE264 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57A972531FBC1C9C001DE264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A972541FBC1C9C001DE264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57A972571FBC1C9C001DE264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57A972581FBC1C9C001DE264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57A9725A1FBC1C9C001DE264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1612CF2C8BDBD994D0E5D21A /* Pods-Abramit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F983ZW9E9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Abramit/Supporting\\ Files",
+					"$(PROJECT_DIR)/Abramit",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Abramit/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akanj.Abramit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Abramit/Abramit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57A9725B1FBC1C9C001DE264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFAF29AB5B8B395AC77F00B8 /* Pods-Abramit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F983ZW9E9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Abramit/Supporting\\ Files",
+					"$(PROJECT_DIR)/Abramit",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Abramit/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akanj.Abramit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Abramit/Abramit-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57A972421FBC1C9C001DE264 /* Build configuration list for PBXProject "Abramit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A972571FBC1C9C001DE264 /* Debug */,
+				57A972581FBC1C9C001DE264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A972591FBC1C9C001DE264 /* Build configuration list for PBXNativeTarget "Abramit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A9725A1FBC1C9C001DE264 /* Debug */,
+				57A9725B1FBC1C9C001DE264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57A9723F1FBC1C9C001DE264 /* Project object */;
+}

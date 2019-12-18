@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Technology</string>
+	<string>Health</string>
+	<string>Music</string>
+	<string>Engineering</string>
+	<string>Food</string>
+	<string>Politics</string>
+	<string>Social-Work</string>
+	<string>Science</string>
+	<string>Games</string>
+	<string>Economy</string>
+	<string>Labor</string>
+	<string>Sports</string>
+	<string>Transportation</string>
+	<string>Environment</string>
+	<string>Media</string>
+</array>
+</plist>

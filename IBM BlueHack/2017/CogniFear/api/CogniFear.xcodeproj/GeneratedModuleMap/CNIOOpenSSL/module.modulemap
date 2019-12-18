@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/akanj/Projects/CogniFear/web-api/.build/checkouts/swift-nio-ssl.git--8519049946665858401/Sources/CNIOOpenSSL/include"
+    export *
+}

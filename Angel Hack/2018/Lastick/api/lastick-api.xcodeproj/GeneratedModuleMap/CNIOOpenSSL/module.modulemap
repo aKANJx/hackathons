@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/akanj/Projects/Lastick/lastick-api/.build/checkouts/swift-nio-ssl.git-5286048808531168884/Sources/CNIOOpenSSL/include"
+    export *
+}

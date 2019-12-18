@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iB3-rf-Sa2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="K9a-wk-ozD">
+            <objects>
+                <viewController id="iB3-rf-Sa2" customClass="HomeViewController" customModule="HackthonGlobo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YrS-IN-RfV"/>
+                        <viewControllerLayoutGuide type="bottom" id="tM7-Ka-kJj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TfD-dl-zOh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hackathon" translatesAutoresizingMaskIntoConstraints="NO" id="cio-Wd-xrt">
+                                <rect key="frame" x="34" y="312" width="308" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cio-Wd-xrt" secondAttribute="height" multiplier="7:1" id="ZkF-zc-Nlb"/>
+                                </constraints>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ry0-B9-jmm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewLayout key="collectionViewLayout" id="I42-z7-eYT" customClass="SFFocusViewLayout" customModule="SFFocusViewLayout"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="footer" id="vap-45-UqS">
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="88"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="76" height="88"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                        <size key="customSize" width="76" height="88"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ry0-B9-jmm" firstAttribute="leading" secondItem="TfD-dl-zOh" secondAttribute="leading" id="1rf-RI-Z5Z"/>
+                            <constraint firstItem="ry0-B9-jmm" firstAttribute="top" secondItem="YrS-IN-RfV" secondAttribute="bottom" constant="-20" id="8CP-Ga-Umv"/>
+                            <constraint firstItem="cio-Wd-xrt" firstAttribute="centerY" secondItem="TfD-dl-zOh" secondAttribute="centerY" id="ELM-CA-Clc"/>
+                            <constraint firstItem="cio-Wd-xrt" firstAttribute="centerX" secondItem="TfD-dl-zOh" secondAttribute="centerX" id="apM-lq-Y68"/>
+                            <constraint firstAttribute="trailing" secondItem="ry0-B9-jmm" secondAttribute="trailing" id="bId-it-BXu"/>
+                            <constraint firstItem="cio-Wd-xrt" firstAttribute="leading" secondItem="TfD-dl-zOh" secondAttribute="leading" constant="34" id="s8Z-gY-SkP"/>
+                            <constraint firstItem="tM7-Ka-kJj" firstAttribute="top" secondItem="ry0-B9-jmm" secondAttribute="bottom" id="y6q-2d-iFN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="ry0-B9-jmm" id="BvA-lt-52i"/>
+                        <segue destination="ZDT-0D-twS" kind="show" identifier="showDetail" id="ja9-hK-Stl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="diU-Nt-Rau" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.59999999999999" y="173.16341829085459"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="gIa-gM-qMO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="ZDT-0D-twS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xLh-ce-7le" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="921" y="185"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hackathon" width="400" height="57"/>
+    </resources>
+</document>

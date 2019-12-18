@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5704EBF21E29B61300E3D2EB /* CreatePersonalPiggyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704EBF11E29B61300E3D2EB /* CreatePersonalPiggyViewController.swift */; };
+		570D05A11E2ED4CE00B18869 /* PShareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570D05A01E2ED4CE00B18869 /* PShareCell.swift */; };
+		5717678A1E26A4BA005A36B8 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571767881E26A4BA005A36B8 /* CategoryCell.swift */; };
+		5717678B1E26A4BA005A36B8 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571767891E26A4BA005A36B8 /* CategoryCell.xib */; };
+		5717678E1E26A7E9005A36B8 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717678C1E26A7E9005A36B8 /* BannerCell.swift */; };
+		5717678F1E26A7E9005A36B8 /* BannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5717678D1E26A7E9005A36B8 /* BannerCell.xib */; };
+		5717E6CE1E2DCC88006D70AC /* PiggyHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717E6CD1E2DCC88006D70AC /* PiggyHeaderCell.swift */; };
+		572070DA1E2E9CE600948165 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 572070D91E2E9CE600948165 /* GoogleService-Info.plist */; };
+		5726A6B11E2C5B8D0049B7D1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5726A6B01E2C5B8D0049B7D1 /* SpriteKit.framework */; };
+		5726A6B31E2C5BC40049B7D1 /* CoinsDropScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726A6B21E2C5BC40049B7D1 /* CoinsDropScene.swift */; };
+		5726A6B91E2C5E6E0049B7D1 /* CoinsParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5726A6B81E2C5E6E0049B7D1 /* CoinsParticle.sks */; };
+		5727288B1E283C080077EB92 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5727288A1E283C080077EB92 /* AppButton.swift */; };
+		574553AF1E2F55CF0098D8C5 /* CategoryHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574553AE1E2F55CF0098D8C5 /* CategoryHeaderCell.swift */; };
+		574EFA8F1E2E519F002E94DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574EFA8E1E2E519F002E94DC /* User.swift */; };
+		574EFA911E2E526D002E94DC /* AddPiggySavingsButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574EFA901E2E526D002E94DC /* AddPiggySavingsButtonCell.swift */; };
+		574EFA931E2E58AB002E94DC /* AddPiggySavingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574EFA921E2E58AB002E94DC /* AddPiggySavingsCell.swift */; };
+		57573EF81E29867B008BFB3D /* PiggyAdvisorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57573EF71E29867B008BFB3D /* PiggyAdvisorViewController.swift */; };
+		5757B0491E2F409E0087CDC3 /* Friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5757B0481E2F409E0087CDC3 /* Friends.plist */; };
+		575A04E11E2BE99E009746CF /* PHeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575A04DF1E2BE99E009746CF /* PHeaderSection.swift */; };
+		575A04E21E2BE99E009746CF /* PHeaderSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A04E01E2BE99E009746CF /* PHeaderSection.xib */; };
+		575A04E51E2BEBA8009746CF /* PFooterSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575A04E31E2BEBA8009746CF /* PFooterSection.swift */; };
+		575A04E61E2BEBA8009746CF /* PFooterSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A04E41E2BEBA8009746CF /* PFooterSection.xib */; };
+		576477EA1E29D54C00A5C806 /* PickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576477E91E29D54C00A5C806 /* PickerController.swift */; };
+		5768C4A21E2ECFD800C92718 /* Coin-shake3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5768C4A11E2ECFD800C92718 /* Coin-shake3.mp3 */; };
+		5768C4A41E2ED0E500C92718 /* Coin-drop3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5768C4A31E2ED0E500C92718 /* Coin-drop3.mp3 */; };
+		576F9DE11E2E79C700C76672 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576F9DE01E2E79C700C76672 /* UIViewExtension.swift */; };
+		5773108B1E2EB41D0006575C /* FriendsHeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577310891E2EB41D0006575C /* FriendsHeaderSection.swift */; };
+		5773108C1E2EB41D0006575C /* FriendsHeaderSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5773108A1E2EB41D0006575C /* FriendsHeaderSection.xib */; };
+		5773108E1E2EB73F0006575C /* PAboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773108D1E2EB73F0006575C /* PAboutCell.swift */; };
+		577D17E11E2951BC001FFB24 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577D17E01E2951BC001FFB24 /* SettingsViewController.swift */; };
+		57876ADE1E2B32890060BECA /* PiggiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57876ADD1E2B32890060BECA /* PiggiesViewController.swift */; };
+		579425801E2E3CF10007EDD3 /* CategoryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794257E1E2E3CF10007EDD3 /* CategoryItemCell.swift */; };
+		579425811E2E3CF10007EDD3 /* CategoryItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5794257F1E2E3CF10007EDD3 /* CategoryItemCell.xib */; };
+		579425831E2E418C0007EDD3 /* PublicPiggyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579425821E2E418C0007EDD3 /* PublicPiggyViewController.swift */; };
+		579514AD1E28159000149449 /* AASquaresLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579514AC1E28159000149449 /* AASquaresLoading.swift */; };
+		579514AF1E2816A400149449 /* NewPiggyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579514AE1E2816A400149449 /* NewPiggyViewController.swift */; };
+		5795A48D1E264CC80059FDE6 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795A48C1E264CC80059FDE6 /* ExploreViewController.swift */; };
+		5795EB7B1E27F897005E50ED /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795EB7A1E27F897005E50ED /* APIClient.swift */; };
+		5797AF771E272A2D006B9CB5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5797AF761E272A2D006B9CB5 /* LoginViewController.swift */; };
+		5797AF791E272A7B006B9CB5 /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5797AF781E272A7B006B9CB5 /* GradientBackgroundView.swift */; };
+		579E2A4C1E293CB100D883A0 /* PiggyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E2A4B1E293CB100D883A0 /* PiggyCell.swift */; };
+		579E2A501E293D1000D883A0 /* PiggyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579E2A4E1E293D1000D883A0 /* PiggyCell.xib */; };
+		57A40D351E2EA310003209ED /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A40D341E2EA310003209ED /* Banner.swift */; };
+		57A40D371E2EA39B003209ED /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A40D361E2EA39B003209ED /* Category.swift */; };
+		57A9378B1E2C04AA005BDD7D /* OverlayAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A9378A1E2C04AA005BDD7D /* OverlayAnimationController.swift */; };
+		57B1237F1E2C4CE000FAAD9F /* SavingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1237E1E2C4CE000FAAD9F /* SavingsTableViewCell.swift */; };
+		57B28CA41E291A4B001B4D25 /* PActiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B28CA31E291A4B001B4D25 /* PActiveCell.swift */; };
+		57B28CA61E291D65001B4D25 /* GradientPersonalPiggyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B28CA51E291D65001B4D25 /* GradientPersonalPiggyView.swift */; };
+		57B91CB61E2B102A0080ECF0 /* SavingsAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B91CB51E2B102A0080ECF0 /* SavingsAccViewController.swift */; };
+		57C0EEE81E2FB40700E67875 /* ProjectFriend.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C0EEE71E2FB40700E67875 /* ProjectFriend.plist */; };
+		57C20B1D1E2C516B009880F0 /* PiggyFX.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C20B1C1E2C516B009880F0 /* PiggyFX.plist */; };
+		57CC05A41E264B580043C82F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC05A31E264B580043C82F /* AppDelegate.swift */; };
+		57CC05A91E264B580043C82F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CC05A71E264B580043C82F /* Main.storyboard */; };
+		57CC05AB1E264B580043C82F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CC05AA1E264B580043C82F /* Assets.xcassets */; };
+		57CC05AE1E264B580043C82F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CC05AC1E264B580043C82F /* LaunchScreen.storyboard */; };
+		57D2B2E11E2E8B10008CD40F /* PiggyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2B2E01E2E8B10008CD40F /* PiggyImageView.swift */; };
+		57D9A3DF1E290F7B00240969 /* JsonSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9A3DE1E290F7B00240969 /* JsonSerializer.swift */; };
+		57D9A3E11E29165900240969 /* PiggiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9A3E01E29165900240969 /* PiggiesCell.swift */; };
+		57D9A3E41E29168900240969 /* PNavigationHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9A3E31E29168900240969 /* PNavigationHeaderCell.swift */; };
+		57E0068D1E2CA26700AAAD81 /* HomeWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E0068C1E2CA26700AAAD81 /* HomeWelcomeViewController.swift */; };
+		57E5EE361E280D1E00EAD1E6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5EE351E280D1E00EAD1E6 /* NotificationController.swift */; };
+		57EA9A841E2923110079BB87 /* PiggyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA9A831E2923110079BB87 /* PiggyViewController.swift */; };
+		57F16C971E27358D0094CC55 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F16C961E27358D0094CC55 /* UIColorExtension.swift */; };
+		57F567D51E284B7C00159A81 /* AddPiggyHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F567D41E284B7C00159A81 /* AddPiggyHeaderCell.swift */; };
+		57F567D71E284B9400159A81 /* AddPiggyDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F567D61E284B9400159A81 /* AddPiggyDescriptionCell.swift */; };
+		57F567D91E284BBE00159A81 /* AddPiggyPrivacyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F567D81E284BBE00159A81 /* AddPiggyPrivacyCell.swift */; };
+		57F567DB1E284BD500159A81 /* AddPiggyCreateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F567DA1E284BD500159A81 /* AddPiggyCreateCell.swift */; };
+		57F567DD1E285AC200159A81 /* Piggy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F567DC1E285AC200159A81 /* Piggy.swift */; };
+		57F567E01E285B3F00159A81 /* AddPiggyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F567DF1E285B3F00159A81 /* AddPiggyTableViewCell.swift */; };
+		A4AABBAB034F227E89010860 /* Pods_Piggy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E119D440DA7B967D7D788F /* Pods_Piggy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42E64A8210556ED11CFABEC1 /* Pods-Piggy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piggy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Piggy/Pods-Piggy.release.xcconfig"; sourceTree = "<group>"; };
+		4859CDC6A9F86D5B050FB3DC /* Pods-Piggy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piggy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Piggy/Pods-Piggy.debug.xcconfig"; sourceTree = "<group>"; };
+		5704EBF11E29B61300E3D2EB /* CreatePersonalPiggyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePersonalPiggyViewController.swift; sourceTree = "<group>"; };
+		570D05A01E2ED4CE00B18869 /* PShareCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PShareCell.swift; sourceTree = "<group>"; };
+		571767881E26A4BA005A36B8 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		571767891E26A4BA005A36B8 /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		5717678C1E26A7E9005A36B8 /* BannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		5717678D1E26A7E9005A36B8 /* BannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerCell.xib; sourceTree = "<group>"; };
+		5717E6CD1E2DCC88006D70AC /* PiggyHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyHeaderCell.swift; sourceTree = "<group>"; };
+		572070D91E2E9CE600948165 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5726A6B01E2C5B8D0049B7D1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		5726A6B21E2C5BC40049B7D1 /* CoinsDropScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinsDropScene.swift; sourceTree = "<group>"; };
+		5726A6B81E2C5E6E0049B7D1 /* CoinsParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CoinsParticle.sks; sourceTree = "<group>"; };
+		5727288A1E283C080077EB92 /* AppButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		574553AE1E2F55CF0098D8C5 /* CategoryHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeaderCell.swift; sourceTree = "<group>"; };
+		574EFA8E1E2E519F002E94DC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		574EFA901E2E526D002E94DC /* AddPiggySavingsButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPiggySavingsButtonCell.swift; sourceTree = "<group>"; };
+		574EFA921E2E58AB002E94DC /* AddPiggySavingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPiggySavingsCell.swift; sourceTree = "<group>"; };
+		57573EF71E29867B008BFB3D /* PiggyAdvisorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyAdvisorViewController.swift; sourceTree = "<group>"; };
+		5757B0481E2F409E0087CDC3 /* Friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Friends.plist; sourceTree = "<group>"; };
+		575A04DF1E2BE99E009746CF /* PHeaderSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHeaderSection.swift; sourceTree = "<group>"; };
+		575A04E01E2BE99E009746CF /* PHeaderSection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PHeaderSection.xib; sourceTree = "<group>"; };
+		575A04E31E2BEBA8009746CF /* PFooterSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PFooterSection.swift; sourceTree = "<group>"; };
+		575A04E41E2BEBA8009746CF /* PFooterSection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PFooterSection.xib; sourceTree = "<group>"; };
+		576477E91E29D54C00A5C806 /* PickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerController.swift; sourceTree = "<group>"; };
+		5768C4A11E2ECFD800C92718 /* Coin-shake3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Coin-shake3.mp3"; sourceTree = "<group>"; };
+		5768C4A31E2ED0E500C92718 /* Coin-drop3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Coin-drop3.mp3"; sourceTree = "<group>"; };
+		576F9DE01E2E79C700C76672 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		577310891E2EB41D0006575C /* FriendsHeaderSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsHeaderSection.swift; sourceTree = "<group>"; };
+		5773108A1E2EB41D0006575C /* FriendsHeaderSection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsHeaderSection.xib; sourceTree = "<group>"; };
+		5773108D1E2EB73F0006575C /* PAboutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAboutCell.swift; sourceTree = "<group>"; };
+		577D17E01E2951BC001FFB24 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		57876ADD1E2B32890060BECA /* PiggiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggiesViewController.swift; sourceTree = "<group>"; };
+		5794257E1E2E3CF10007EDD3 /* CategoryItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItemCell.swift; sourceTree = "<group>"; };
+		5794257F1E2E3CF10007EDD3 /* CategoryItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryItemCell.xib; sourceTree = "<group>"; };
+		579425821E2E418C0007EDD3 /* PublicPiggyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicPiggyViewController.swift; sourceTree = "<group>"; };
+		579514AC1E28159000149449 /* AASquaresLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AASquaresLoading.swift; path = Piggy/AASquaresLoading.swift; sourceTree = "<group>"; };
+		579514AE1E2816A400149449 /* NewPiggyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPiggyViewController.swift; sourceTree = "<group>"; };
+		5795A48C1E264CC80059FDE6 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		5795EB7A1E27F897005E50ED /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5797AF761E272A2D006B9CB5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5797AF781E272A7B006B9CB5 /* GradientBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
+		579E2A4B1E293CB100D883A0 /* PiggyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyCell.swift; sourceTree = "<group>"; };
+		579E2A4E1E293D1000D883A0 /* PiggyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PiggyCell.xib; sourceTree = "<group>"; };
+		57A40D341E2EA310003209ED /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		57A40D361E2EA39B003209ED /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		57A9378A1E2C04AA005BDD7D /* OverlayAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayAnimationController.swift; sourceTree = "<group>"; };
+		57B1237E1E2C4CE000FAAD9F /* SavingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingsTableViewCell.swift; sourceTree = "<group>"; };
+		57B28CA31E291A4B001B4D25 /* PActiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PActiveCell.swift; sourceTree = "<group>"; };
+		57B28CA51E291D65001B4D25 /* GradientPersonalPiggyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientPersonalPiggyView.swift; sourceTree = "<group>"; };
+		57B725491E2C97BB00403532 /* Piggy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Piggy.entitlements; sourceTree = "<group>"; };
+		57B91CB51E2B102A0080ECF0 /* SavingsAccViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingsAccViewController.swift; sourceTree = "<group>"; };
+		57C0EEE71E2FB40700E67875 /* ProjectFriend.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProjectFriend.plist; sourceTree = "<group>"; };
+		57C20B1C1E2C516B009880F0 /* PiggyFX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PiggyFX.plist; sourceTree = "<group>"; };
+		57CC05A01E264B580043C82F /* Piggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CC05A31E264B580043C82F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57CC05A81E264B580043C82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57CC05AA1E264B580043C82F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57CC05AD1E264B580043C82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57CC05AF1E264B580043C82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D2B2E01E2E8B10008CD40F /* PiggyImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyImageView.swift; sourceTree = "<group>"; };
+		57D9A3DE1E290F7B00240969 /* JsonSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonSerializer.swift; sourceTree = "<group>"; };
+		57D9A3E01E29165900240969 /* PiggiesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggiesCell.swift; sourceTree = "<group>"; };
+		57D9A3E31E29168900240969 /* PNavigationHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNavigationHeaderCell.swift; sourceTree = "<group>"; };
+		57E0068C1E2CA26700AAAD81 /* HomeWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWelcomeViewController.swift; sourceTree = "<group>"; };
+		57E5EE351E280D1E00EAD1E6 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		57EA9A831E2923110079BB87 /* PiggyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyViewController.swift; sourceTree = "<group>"; };
+		57F16C961E27358D0094CC55 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		57F567D41E284B7C00159A81 /* AddPiggyHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPiggyHeaderCell.swift; sourceTree = "<group>"; };
+		57F567D61E284B9400159A81 /* AddPiggyDescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPiggyDescriptionCell.swift; sourceTree = "<group>"; };
+		57F567D81E284BBE00159A81 /* AddPiggyPrivacyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPiggyPrivacyCell.swift; sourceTree = "<group>"; };
+		57F567DA1E284BD500159A81 /* AddPiggyCreateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPiggyCreateCell.swift; sourceTree = "<group>"; };
+		57F567DC1E285AC200159A81 /* Piggy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piggy.swift; sourceTree = "<group>"; };
+		57F567DF1E285B3F00159A81 /* AddPiggyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPiggyTableViewCell.swift; sourceTree = "<group>"; };
+		B7E119D440DA7B967D7D788F /* Pods_Piggy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piggy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CC059D1E264B580043C82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5726A6B11E2C5B8D0049B7D1 /* SpriteKit.framework in Frameworks */,
+				A4AABBAB034F227E89010860 /* Pods_Piggy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571767901E26A7F0005A36B8 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				574553AE1E2F55CF0098D8C5 /* CategoryHeaderCell.swift */,
+				571767881E26A4BA005A36B8 /* CategoryCell.swift */,
+				571767891E26A4BA005A36B8 /* CategoryCell.xib */,
+				5717678C1E26A7E9005A36B8 /* BannerCell.swift */,
+				5717678D1E26A7E9005A36B8 /* BannerCell.xib */,
+				5794257E1E2E3CF10007EDD3 /* CategoryItemCell.swift */,
+				5794257F1E2E3CF10007EDD3 /* CategoryItemCell.xib */,
+			);
+			name = Explore;
+			sourceTree = "<group>";
+		};
+		571767911E26A862005A36B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57D2B2E01E2E8B10008CD40F /* PiggyImageView.swift */,
+				5797AF781E272A7B006B9CB5 /* GradientBackgroundView.swift */,
+				57B28CA51E291D65001B4D25 /* GradientPersonalPiggyView.swift */,
+				57D9A3E21E29165F00240969 /* Piggies */,
+				5717E6CF1E2DCC99006D70AC /* Piggy */,
+				57F567D31E284B5C00159A81 /* New Piggy */,
+				571767901E26A7F0005A36B8 /* Explore */,
+				5727288A1E283C080077EB92 /* AppButton.swift */,
+				57B1237E1E2C4CE000FAAD9F /* SavingsTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		571767921E26A86C005A36B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5797AF761E272A2D006B9CB5 /* LoginViewController.swift */,
+				57A937891E2C0209005BDD7D /* New User */,
+				57876ADD1E2B32890060BECA /* PiggiesViewController.swift */,
+				57EA9A831E2923110079BB87 /* PiggyViewController.swift */,
+				5795A48C1E264CC80059FDE6 /* ExploreViewController.swift */,
+				579425821E2E418C0007EDD3 /* PublicPiggyViewController.swift */,
+				579514AE1E2816A400149449 /* NewPiggyViewController.swift */,
+				577D17E01E2951BC001FFB24 /* SettingsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5717E6CF1E2DCC99006D70AC /* Piggy */ = {
+			isa = PBXGroup;
+			children = (
+				5717E6CD1E2DCC88006D70AC /* PiggyHeaderCell.swift */,
+				570D05A01E2ED4CE00B18869 /* PShareCell.swift */,
+				5773108D1E2EB73F0006575C /* PAboutCell.swift */,
+				577310891E2EB41D0006575C /* FriendsHeaderSection.swift */,
+				5773108A1E2EB41D0006575C /* FriendsHeaderSection.xib */,
+			);
+			name = Piggy;
+			sourceTree = "<group>";
+		};
+		5795A48B1E264C710059FDE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57CC05A31E264B580043C82F /* AppDelegate.swift */,
+				572070D91E2E9CE600948165 /* GoogleService-Info.plist */,
+				57C20B1E1E2C5335009880F0 /* SFX */,
+				57B725491E2C97BB00403532 /* Piggy.entitlements */,
+				57E5EE351E280D1E00EAD1E6 /* NotificationController.swift */,
+				576477E91E29D54C00A5C806 /* PickerController.swift */,
+				57CC05AA1E264B580043C82F /* Assets.xcassets */,
+				57CC05AC1E264B580043C82F /* LaunchScreen.storyboard */,
+				57CC05AF1E264B580043C82F /* Info.plist */,
+				57F16C961E27358D0094CC55 /* UIColorExtension.swift */,
+				57A9378A1E2C04AA005BDD7D /* OverlayAnimationController.swift */,
+				576F9DE01E2E79C700C76672 /* UIViewExtension.swift */,
+				5757B0481E2F409E0087CDC3 /* Friends.plist */,
+				57C0EEE71E2FB40700E67875 /* ProjectFriend.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57A937891E2C0209005BDD7D /* New User */ = {
+			isa = PBXGroup;
+			children = (
+				57573EF71E29867B008BFB3D /* PiggyAdvisorViewController.swift */,
+				5704EBF11E29B61300E3D2EB /* CreatePersonalPiggyViewController.swift */,
+				57B91CB51E2B102A0080ECF0 /* SavingsAccViewController.swift */,
+				57E0068C1E2CA26700AAAD81 /* HomeWelcomeViewController.swift */,
+			);
+			name = "New User";
+			sourceTree = "<group>";
+		};
+		57C20B1E1E2C5335009880F0 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				5768C4A11E2ECFD800C92718 /* Coin-shake3.mp3 */,
+				5768C4A31E2ED0E500C92718 /* Coin-drop3.mp3 */,
+				57C20B1C1E2C516B009880F0 /* PiggyFX.plist */,
+				5726A6B21E2C5BC40049B7D1 /* CoinsDropScene.swift */,
+				5726A6B81E2C5E6E0049B7D1 /* CoinsParticle.sks */,
+			);
+			name = SFX;
+			sourceTree = "<group>";
+		};
+		57CC05971E264B580043C82F = {
+			isa = PBXGroup;
+			children = (
+				57CC05A21E264B580043C82F /* Piggy */,
+				57CC05A11E264B580043C82F /* Products */,
+				F22C8FA4F726B3AB577A758A /* Pods */,
+				7652F7FD31221D3392B4827F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57CC05A11E264B580043C82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CC05A01E264B580043C82F /* Piggy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CC05A21E264B580043C82F /* Piggy */ = {
+			isa = PBXGroup;
+			children = (
+				57CC05A71E264B580043C82F /* Main.storyboard */,
+				57F567DE1E285AC700159A81 /* Networking */,
+				57FC01921E26B7460002DEB0 /* Model */,
+				571767921E26A86C005A36B8 /* Controller */,
+				571767911E26A862005A36B8 /* View */,
+				5795A48B1E264C710059FDE6 /* Supporting Files */,
+			);
+			path = Piggy;
+			sourceTree = "<group>";
+		};
+		57D9A3E21E29165F00240969 /* Piggies */ = {
+			isa = PBXGroup;
+			children = (
+				57D9A3E01E29165900240969 /* PiggiesCell.swift */,
+				57D9A3E31E29168900240969 /* PNavigationHeaderCell.swift */,
+				57B28CA31E291A4B001B4D25 /* PActiveCell.swift */,
+				575A04DF1E2BE99E009746CF /* PHeaderSection.swift */,
+				575A04E01E2BE99E009746CF /* PHeaderSection.xib */,
+				575A04E31E2BEBA8009746CF /* PFooterSection.swift */,
+				575A04E41E2BEBA8009746CF /* PFooterSection.xib */,
+				579E2A4B1E293CB100D883A0 /* PiggyCell.swift */,
+				579E2A4E1E293D1000D883A0 /* PiggyCell.xib */,
+			);
+			name = Piggies;
+			sourceTree = "<group>";
+		};
+		57F567D31E284B5C00159A81 /* New Piggy */ = {
+			isa = PBXGroup;
+			children = (
+				57F567DF1E285B3F00159A81 /* AddPiggyTableViewCell.swift */,
+				57F567D41E284B7C00159A81 /* AddPiggyHeaderCell.swift */,
+				57F567D61E284B9400159A81 /* AddPiggyDescriptionCell.swift */,
+				57F567D81E284BBE00159A81 /* AddPiggyPrivacyCell.swift */,
+				57F567DA1E284BD500159A81 /* AddPiggyCreateCell.swift */,
+				574EFA901E2E526D002E94DC /* AddPiggySavingsButtonCell.swift */,
+				574EFA921E2E58AB002E94DC /* AddPiggySavingsCell.swift */,
+			);
+			name = "New Piggy";
+			sourceTree = "<group>";
+		};
+		57F567DE1E285AC700159A81 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5795EB7A1E27F897005E50ED /* APIClient.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		57FC01921E26B7460002DEB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				574EFA8E1E2E519F002E94DC /* User.swift */,
+				57F567DC1E285AC200159A81 /* Piggy.swift */,
+				57A40D341E2EA310003209ED /* Banner.swift */,
+				57A40D361E2EA39B003209ED /* Category.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7652F7FD31221D3392B4827F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5726A6B01E2C5B8D0049B7D1 /* SpriteKit.framework */,
+				57D9A3DE1E290F7B00240969 /* JsonSerializer.swift */,
+				579514AC1E28159000149449 /* AASquaresLoading.swift */,
+				B7E119D440DA7B967D7D788F /* Pods_Piggy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F22C8FA4F726B3AB577A758A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4859CDC6A9F86D5B050FB3DC /* Pods-Piggy.debug.xcconfig */,
+				42E64A8210556ED11CFABEC1 /* Pods-Piggy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57CC059F1E264B580043C82F /* Piggy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CC05B21E264B580043C82F /* Build configuration list for PBXNativeTarget "Piggy" */;
+			buildPhases = (
+				995087713A06DB18B7870B34 /* [CP] Check Pods Manifest.lock */,
+				57CC059C1E264B580043C82F /* Sources */,
+				57CC059D1E264B580043C82F /* Frameworks */,
+				57CC059E1E264B580043C82F /* Resources */,
+				6BDBBC56015C2E16EC36E292 /* [CP] Embed Pods Frameworks */,
+				6F990638A3325D6AECA04C17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piggy;
+			productName = Piggy;
+			productReference = 57CC05A01E264B580043C82F /* Piggy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CC05981E264B580043C82F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = aKANJ;
+				TargetAttributes = {
+					57CC059F1E264B580043C82F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7X2QX4QAP3;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 57CC059B1E264B580043C82F /* Build configuration list for PBXProject "Piggy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57CC05971E264B580043C82F;
+			productRefGroup = 57CC05A11E264B580043C82F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CC059F1E264B580043C82F /* Piggy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CC059E1E264B580043C82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5773108C1E2EB41D0006575C /* FriendsHeaderSection.xib in Resources */,
+				572070DA1E2E9CE600948165 /* GoogleService-Info.plist in Resources */,
+				5757B0491E2F409E0087CDC3 /* Friends.plist in Resources */,
+				5726A6B91E2C5E6E0049B7D1 /* CoinsParticle.sks in Resources */,
+				57CC05AE1E264B580043C82F /* LaunchScreen.storyboard in Resources */,
+				5717678B1E26A4BA005A36B8 /* CategoryCell.xib in Resources */,
+				575A04E21E2BE99E009746CF /* PHeaderSection.xib in Resources */,
+				57CC05AB1E264B580043C82F /* Assets.xcassets in Resources */,
+				57C0EEE81E2FB40700E67875 /* ProjectFriend.plist in Resources */,
+				5768C4A21E2ECFD800C92718 /* Coin-shake3.mp3 in Resources */,
+				57CC05A91E264B580043C82F /* Main.storyboard in Resources */,
+				579425811E2E3CF10007EDD3 /* CategoryItemCell.xib in Resources */,
+				5768C4A41E2ED0E500C92718 /* Coin-drop3.mp3 in Resources */,
+				5717678F1E26A7E9005A36B8 /* BannerCell.xib in Resources */,
+				57C20B1D1E2C516B009880F0 /* PiggyFX.plist in Resources */,
+				579E2A501E293D1000D883A0 /* PiggyCell.xib in Resources */,
+				575A04E61E2BEBA8009746CF /* PFooterSection.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BDBBC56015C2E16EC36E292 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piggy/Pods-Piggy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F990638A3325D6AECA04C17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piggy/Pods-Piggy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		995087713A06DB18B7870B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CC059C1E264B580043C82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5797AF771E272A2D006B9CB5 /* LoginViewController.swift in Sources */,
+				570D05A11E2ED4CE00B18869 /* PShareCell.swift in Sources */,
+				579425831E2E418C0007EDD3 /* PublicPiggyViewController.swift in Sources */,
+				5717E6CE1E2DCC88006D70AC /* PiggyHeaderCell.swift in Sources */,
+				57F567D71E284B9400159A81 /* AddPiggyDescriptionCell.swift in Sources */,
+				57D9A3DF1E290F7B00240969 /* JsonSerializer.swift in Sources */,
+				579514AD1E28159000149449 /* AASquaresLoading.swift in Sources */,
+				57E5EE361E280D1E00EAD1E6 /* NotificationController.swift in Sources */,
+				579E2A4C1E293CB100D883A0 /* PiggyCell.swift in Sources */,
+				575A04E11E2BE99E009746CF /* PHeaderSection.swift in Sources */,
+				57E0068D1E2CA26700AAAD81 /* HomeWelcomeViewController.swift in Sources */,
+				57B91CB61E2B102A0080ECF0 /* SavingsAccViewController.swift in Sources */,
+				5717678A1E26A4BA005A36B8 /* CategoryCell.swift in Sources */,
+				57EA9A841E2923110079BB87 /* PiggyViewController.swift in Sources */,
+				57B1237F1E2C4CE000FAAD9F /* SavingsTableViewCell.swift in Sources */,
+				574EFA931E2E58AB002E94DC /* AddPiggySavingsCell.swift in Sources */,
+				576F9DE11E2E79C700C76672 /* UIViewExtension.swift in Sources */,
+				5727288B1E283C080077EB92 /* AppButton.swift in Sources */,
+				57F16C971E27358D0094CC55 /* UIColorExtension.swift in Sources */,
+				57876ADE1E2B32890060BECA /* PiggiesViewController.swift in Sources */,
+				57D9A3E41E29168900240969 /* PNavigationHeaderCell.swift in Sources */,
+				57F567DD1E285AC200159A81 /* Piggy.swift in Sources */,
+				5797AF791E272A7B006B9CB5 /* GradientBackgroundView.swift in Sources */,
+				574EFA8F1E2E519F002E94DC /* User.swift in Sources */,
+				5773108B1E2EB41D0006575C /* FriendsHeaderSection.swift in Sources */,
+				57A40D371E2EA39B003209ED /* Category.swift in Sources */,
+				57F567E01E285B3F00159A81 /* AddPiggyTableViewCell.swift in Sources */,
+				57F567D91E284BBE00159A81 /* AddPiggyPrivacyCell.swift in Sources */,
+				57B28CA41E291A4B001B4D25 /* PActiveCell.swift in Sources */,
+				5795A48D1E264CC80059FDE6 /* ExploreViewController.swift in Sources */,
+				57D2B2E11E2E8B10008CD40F /* PiggyImageView.swift in Sources */,
+				5773108E1E2EB73F0006575C /* PAboutCell.swift in Sources */,
+				576477EA1E29D54C00A5C806 /* PickerController.swift in Sources */,
+				5717678E1E26A7E9005A36B8 /* BannerCell.swift in Sources */,
+				574553AF1E2F55CF0098D8C5 /* CategoryHeaderCell.swift in Sources */,
+				5726A6B31E2C5BC40049B7D1 /* CoinsDropScene.swift in Sources */,
+				57573EF81E29867B008BFB3D /* PiggyAdvisorViewController.swift in Sources */,
+				57A9378B1E2C04AA005BDD7D /* OverlayAnimationController.swift in Sources */,
+				575A04E51E2BEBA8009746CF /* PFooterSection.swift in Sources */,
+				579425801E2E3CF10007EDD3 /* CategoryItemCell.swift in Sources */,
+				57D9A3E11E29165900240969 /* PiggiesCell.swift in Sources */,
+				57CC05A41E264B580043C82F /* AppDelegate.swift in Sources */,
+				5704EBF21E29B61300E3D2EB /* CreatePersonalPiggyViewController.swift in Sources */,
+				577D17E11E2951BC001FFB24 /* SettingsViewController.swift in Sources */,
+				57F567DB1E284BD500159A81 /* AddPiggyCreateCell.swift in Sources */,
+				579514AF1E2816A400149449 /* NewPiggyViewController.swift in Sources */,
+				57F567D51E284B7C00159A81 /* AddPiggyHeaderCell.swift in Sources */,
+				574EFA911E2E526D002E94DC /* AddPiggySavingsButtonCell.swift in Sources */,
+				5795EB7B1E27F897005E50ED /* APIClient.swift in Sources */,
+				57B28CA61E291D65001B4D25 /* GradientPersonalPiggyView.swift in Sources */,
+				57A40D351E2EA310003209ED /* Banner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57CC05A71E264B580043C82F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CC05A81E264B580043C82F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57CC05AC1E264B580043C82F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CC05AD1E264B580043C82F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57CC05B01E264B580043C82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57CC05B11E264B580043C82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57CC05B31E264B580043C82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4859CDC6A9F86D5B050FB3DC /* Pods-Piggy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Piggy/Piggy.entitlements;
+				DEVELOPMENT_TEAM = 7X2QX4QAP3;
+				INFOPLIST_FILE = Piggy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aKANJ.PiggyDEV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57CC05B41E264B580043C82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E64A8210556ED11CFABEC1 /* Pods-Piggy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Piggy/Piggy.entitlements;
+				DEVELOPMENT_TEAM = 7X2QX4QAP3;
+				INFOPLIST_FILE = Piggy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aKANJ.PiggyDEV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57CC059B1E264B580043C82F /* Build configuration list for PBXProject "Piggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CC05B01E264B580043C82F /* Debug */,
+				57CC05B11E264B580043C82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CC05B21E264B580043C82F /* Build configuration list for PBXNativeTarget "Piggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CC05B31E264B580043C82F /* Debug */,
+				57CC05B41E264B580043C82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57CC05981E264B580043C82F /* Project object */;
+}

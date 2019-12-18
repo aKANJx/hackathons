@@ -1,0 +1,4 @@
+module CNIOSHA1 {
+    umbrella "/Users/akanj/Projects/CogniFear/web-api/.build/checkouts/swift-nio.git--5047310250405238995/Sources/CNIOSHA1/include"
+    export *
+}
