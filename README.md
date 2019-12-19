@@ -208,6 +208,8 @@ With the app you can find houses based on your geolocation and interests (matchm
 ## Angel Hack 2016
 ### Promoon
 
+OMNI Channel for markets and smart ads (based on user's consumer habits).
+
 [Project](https://github.com/aKANJx/Promoon)
 
 ## SPGameJam 2015
