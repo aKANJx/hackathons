@@ -1,5 +1,8 @@
 design/
 resources/
-unity/
+IBMBlueHack/2017/CogniFear/unity/
+Movile/FoodKids/unity
+SPGameJam/2017/Sarys/unity
+TechCycleChallenge/FXD/unity
 *.mlmodel
 .DS_Store
