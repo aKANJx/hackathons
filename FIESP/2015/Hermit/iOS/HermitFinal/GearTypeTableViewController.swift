@@ -18,32 +18,32 @@ class GearTypeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        doneBarButton.enabled = false
+        doneBarButton.isEnabled = false
         
         var query = PFQuery(className: "GearCategory")
         gearCategories = []
         var fetchResults = [PFObject]()
         
-        query.findObjectsInBackgroundWithBlock({(NSArray objects, NSError error) in
+        query.findObjectsInBackground(block: {(objects, error) in
             if (error != nil) {
-                println("error " + error!.localizedDescription)
+                print("error " + error!.localizedDescription)
             }
             else {
                 fetchResults = (objects as! [PFObject])
                 for fetchResult in fetchResults {
-                    var gearCategory: GearCategory = GearCategory(name: fetchResult.objectForKey("name") as! String)
-                    (fetchResult.objectForKey("imageOff") as! PFFile).getDataInBackgroundWithBlock({(NSData result, NSError error) in
+                    var gearCategory: GearCategory = GearCategory(name: fetchResult.object(forKey: "name") as! String)
+                    (fetchResult.object(forKey: "imageOff") as! PFFileObject).getDataInBackground(block: {(result, error) in
                         if (error != nil) {
-                            println("error " + error!.localizedDescription)
+                            print("error " + error!.localizedDescription)
                         }
                         else {
                             gearCategory.imageOff = UIImage(data: result!)
                         }
                         self.tableView.reloadData()
                     })
-                    (fetchResult.objectForKey("imageOn") as! PFFile).getDataInBackgroundWithBlock({(NSData result, NSError error) in
+                    (fetchResult.object(forKey: "imageOn") as! PFFileObject).getDataInBackground(block: {(result, error) in
                         if (error != nil) {
-                            println("error " + error!.localizedDescription)
+                            print("error " + error!.localizedDescription)
                         }
                         else {
                             gearCategory.imageOn = UIImage(data: result!)
@@ -57,83 +57,77 @@ class GearTypeTableViewController: UITableViewController {
     }
     
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        var tbView = UIView(frame: CGRectMake(0, 0, self.view.bounds.width, self.view.bounds.width))
-        tbView.backgroundColor = UIColor.whiteColor()
+        var tbView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.width))
+        tbView.backgroundColor = UIColor.white
         tableView.backgroundView = tbView
         
-        let backItem = UIBarButtonItem(title: "Equipamentos", style: UIBarButtonItemStyle.Plain, target: nil, action: nil)
+        let backItem = UIBarButtonItem(title: "Equipamentos", style: .plain, target: nil, action: nil)
         navigationItem.backBarButtonItem = backItem
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        var vc = segue.destinationViewController as! SwimmerListTableViewController
-        //vc.title = currentPlaceTitle
-        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var vc = segue.destination as! SwimmerListTableViewController
     }
     
     @IBAction func doneBarButtonPressed(sender: UIBarButtonItem) {
-        performSegueWithIdentifier("pushGearList", sender: nil)
+        performSegue(withIdentifier: "pushGearList", sender: nil)
     }
     
     // MARK: - Table view data source
-    
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return gearCategories.count
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("card", forIndexPath: indexPath) as! GearTypeTableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "card", for: indexPath) as! GearTypeTableViewCell
         
         //cell.putCardImage(UIImage(named: places[indexPath.section])!)
         if (gearCategories[indexPath.section].imageOff != nil) {
-            cell.putCardImage(gearCategories[indexPath.section].imageOff!)
+            cell.putCardImage(cardImage: gearCategories[indexPath.section].imageOff!)
         }
         return cell
     }
     
-    
     // MARK: - Table view delegate
-    
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
     
-    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 1
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        var cell = tableView.cellForRowAtIndexPath(indexPath) as! GearTypeTableViewCell
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var cell = tableView.cellForRow(at: indexPath as IndexPath) as! GearTypeTableViewCell
         if cell.selectedCard == false {
             cell.selectedCard = true
             cell.cardImage.image = gearCategories[indexPath.section].imageOn
-            selectedCardQuantity++
+            selectedCardQuantity += 1
         }
         else {
             cell.selectedCard = false
             cell.cardImage.image = gearCategories[indexPath.section].imageOff
-            selectedCardQuantity--
+            selectedCardQuantity -= 1
         }
         
         if selectedCardQuantity > 0 {
-            doneBarButton.enabled = true
-            doneBarButton.tintColor = UIColor.yellowColor()
+            doneBarButton.isEnabled = true
+            doneBarButton.tintColor = UIColor.yellow
         }
         else if selectedCardQuantity == 0 {
-            doneBarButton.enabled = false
+            doneBarButton.isEnabled = false
         }
     }
+    
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        view.tintColor = UIColor.white
 
-    override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
-        view.tintColor = UIColor.whiteColor()
     }
 }

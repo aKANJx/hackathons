@@ -7,22 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29D8F738924D905E974ED093 /* Pods_HermitFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54C36F5A0E4C8778F3888AA /* Pods_HermitFinalTests.framework */; };
 		8142895F3A32C342C89240E8 /* Pods_HermitFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC4F1D9DB94B15E1B0C855D /* Pods_HermitFinal.framework */; };
 		A20CF0BF1B895FB8009858C2 /* SwimmerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20CF0BE1B895FB8009858C2 /* SwimmerListTableViewCell.swift */; };
 		A2135C1B1B898A4300BDFF86 /* FirstLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2135C1A1B898A4300BDFF86 /* FirstLaunchViewController.swift */; };
 		A228EA761B89BBF1003D8D5A /* GearCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228EA751B89BBF1003D8D5A /* GearCategory.swift */; };
 		A242F2FD1B893D800041C616 /* GearTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A242F2FC1B893D800041C616 /* GearTypeTableViewCell.swift */; };
-		A245D3EE1B898111000CBCB6 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A245D3EA1B898111000CBCB6 /* Fabric.framework */; };
-		A245D3EF1B898111000CBCB6 /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A245D3EB1B898111000CBCB6 /* DigitsKit.framework */; };
-		A245D3F01B898111000CBCB6 /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A245D3EC1B898111000CBCB6 /* DigitsKitResources.bundle */; };
-		A245D3F11B898111000CBCB6 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A245D3ED1B898111000CBCB6 /* TwitterCore.framework */; };
 		A24CF9A81B89637000B48428 /* Swimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CF9A71B89637000B48428 /* Swimmer.swift */; };
 		A24CF9AD1B89666D00B48428 /* Gear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CF9AC1B89666D00B48428 /* Gear.swift */; };
 		A24CF9AF1B896DB700B48428 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CF9AE1B896DB700B48428 /* PhotoView.swift */; };
 		A24CF9B11B896DDB00B48428 /* CellBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CF9B01B896DDB00B48428 /* CellBackground.swift */; };
 		A255C38F1B89B8AC00CCDF03 /* GearListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255C38E1B89B8AC00CCDF03 /* GearListTableViewController.swift */; };
-		A25B4A911B898E5F00478DFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25B4A901B898E5F00478DFD /* MapKit.framework */; };
 		A25B4A961B89905F00478DFD /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A25B4A921B89905F00478DFD /* SourceSansPro-Bold.otf */; };
 		A25B4A971B89905F00478DFD /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A25B4A931B89905F00478DFD /* SourceSansPro-Light.otf */; };
 		A25B4A981B89905F00478DFD /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A25B4A941B89905F00478DFD /* SourceSansPro-Regular.otf */; };
@@ -32,37 +26,14 @@
 		A260D7BC1B8928C4007184F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A260D7BA1B8928C4007184F7 /* Main.storyboard */; };
 		A260D7BE1B8928C4007184F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A260D7BD1B8928C4007184F7 /* Images.xcassets */; };
 		A260D7C11B8928C4007184F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A260D7BF1B8928C4007184F7 /* LaunchScreen.xib */; };
-		A260D7CD1B8928C4007184F7 /* HermitFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A260D7CC1B8928C4007184F7 /* HermitFinalTests.swift */; };
 		A260D7D71B892907007184F7 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A260D7D61B892907007184F7 /* HomeTableViewController.swift */; };
 		A273F5DB1B892E9E0097EE7B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273F5DA1B892E9E0097EE7B /* HomeTableViewCell.swift */; };
 		A273F5DD1B8931B60097EE7B /* GearTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273F5DC1B8931B60097EE7B /* GearTypeTableViewController.swift */; };
 		A273F5E11B8933070097EE7B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273F5E01B8933070097EE7B /* Place.swift */; };
-		A2A328071B89762B00BD2B4A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A328061B89762B00BD2B4A /* AudioToolbox.framework */; };
-		A2A328091B89763400BD2B4A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A328081B89763400BD2B4A /* CFNetwork.framework */; };
-		A2A3280B1B89764000BD2B4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A3280A1B89764000BD2B4A /* CoreGraphics.framework */; };
-		A2A3280D1B89764800BD2B4A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A3280C1B89764800BD2B4A /* CoreLocation.framework */; };
-		A2A3280F1B89765600BD2B4A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A3280E1B89765600BD2B4A /* QuartzCore.framework */; };
-		A2A328111B89765D00BD2B4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A328101B89765D00BD2B4A /* Security.framework */; };
-		A2A328131B89766500BD2B4A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A328121B89766500BD2B4A /* StoreKit.framework */; };
-		A2A328151B89767000BD2B4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A328141B89767000BD2B4A /* SystemConfiguration.framework */; };
-		A2A328171B89767900BD2B4A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A328161B89767900BD2B4A /* libz.dylib */; };
-		A2A328191B89768800BD2B4A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A328181B89768800BD2B4A /* libsqlite3.dylib */; };
-		A2A3281D1B8977E700BD2B4A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A3281B1B8977E700BD2B4A /* Bolts.framework */; };
-		A2A3281E1B8977E700BD2B4A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A3281C1B8977E700BD2B4A /* Parse.framework */; };
 		A2A328201B897C3200BD2B4A /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A3281F1B897C3200BD2B4A /* UserLocation.swift */; };
 		A2D8D5681B89BB1200FA47CB /* GearListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8D5671B89BB1200FA47CB /* GearListTableViewCell.swift */; };
 		A2EADA981B89561A00E80679 /* SwimmerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EADA971B89561A00E80679 /* SwimmerListTableViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A260D7C71B8928C4007184F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A260D7A91B8928C4007184F7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A260D7B01B8928C4007184F7;
-			remoteInfo = HermitFinal;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0BC4F1D9DB94B15E1B0C855D /* Pods_HermitFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HermitFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,16 +45,11 @@
 		A2135C1A1B898A4300BDFF86 /* FirstLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLaunchViewController.swift; sourceTree = "<group>"; };
 		A228EA751B89BBF1003D8D5A /* GearCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearCategory.swift; sourceTree = "<group>"; };
 		A242F2FC1B893D800041C616 /* GearTypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearTypeTableViewCell.swift; sourceTree = "<group>"; };
-		A245D3EA1B898111000CBCB6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = HermitFinal/Fabric.framework; sourceTree = "<group>"; };
-		A245D3EB1B898111000CBCB6 /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DigitsKit.framework; path = HermitFinal/DigitsKit.framework; sourceTree = "<group>"; };
-		A245D3EC1B898111000CBCB6 /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = HermitFinal/DigitsKitResources.bundle; sourceTree = "<group>"; };
-		A245D3ED1B898111000CBCB6 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = HermitFinal/TwitterCore.framework; sourceTree = "<group>"; };
 		A24CF9A71B89637000B48428 /* Swimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swimmer.swift; sourceTree = "<group>"; };
 		A24CF9AC1B89666D00B48428 /* Gear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gear.swift; sourceTree = "<group>"; };
 		A24CF9AE1B896DB700B48428 /* PhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 		A24CF9B01B896DDB00B48428 /* CellBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellBackground.swift; sourceTree = "<group>"; };
 		A255C38E1B89B8AC00CCDF03 /* GearListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearListTableViewController.swift; sourceTree = "<group>"; };
-		A25B4A901B898E5F00478DFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A25B4A921B89905F00478DFD /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
 		A25B4A931B89905F00478DFD /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
 		A25B4A941B89905F00478DFD /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
@@ -95,25 +61,10 @@
 		A260D7BB1B8928C4007184F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A260D7BD1B8928C4007184F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A260D7C01B8928C4007184F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A260D7C61B8928C4007184F7 /* HermitFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HermitFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A260D7CB1B8928C4007184F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A260D7CC1B8928C4007184F7 /* HermitFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermitFinalTests.swift; sourceTree = "<group>"; };
 		A260D7D61B892907007184F7 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		A273F5DA1B892E9E0097EE7B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		A273F5DC1B8931B60097EE7B /* GearTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearTypeTableViewController.swift; sourceTree = "<group>"; };
 		A273F5E01B8933070097EE7B /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
-		A2A328061B89762B00BD2B4A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		A2A328081B89763400BD2B4A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		A2A3280A1B89764000BD2B4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A2A3280C1B89764800BD2B4A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		A2A3280E1B89765600BD2B4A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		A2A328101B89765D00BD2B4A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		A2A328121B89766500BD2B4A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		A2A328141B89767000BD2B4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		A2A328161B89767900BD2B4A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		A2A328181B89768800BD2B4A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		A2A3281B1B8977E700BD2B4A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		A2A3281C1B8977E700BD2B4A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		A2A3281F1B897C3200BD2B4A /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 		A2D8D5671B89BB1200FA47CB /* GearListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearListTableViewCell.swift; sourceTree = "<group>"; };
 		A2EADA971B89561A00E80679 /* SwimmerListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimmerListTableViewController.swift; sourceTree = "<group>"; };
@@ -125,31 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2A328191B89768800BD2B4A /* libsqlite3.dylib in Frameworks */,
-				A2A328171B89767900BD2B4A /* libz.dylib in Frameworks */,
-				A25B4A911B898E5F00478DFD /* MapKit.framework in Frameworks */,
-				A2A328151B89767000BD2B4A /* SystemConfiguration.framework in Frameworks */,
-				A245D3EF1B898111000CBCB6 /* DigitsKit.framework in Frameworks */,
-				A2A328131B89766500BD2B4A /* StoreKit.framework in Frameworks */,
-				A2A328111B89765D00BD2B4A /* Security.framework in Frameworks */,
-				A2A3280F1B89765600BD2B4A /* QuartzCore.framework in Frameworks */,
-				A2A3280D1B89764800BD2B4A /* CoreLocation.framework in Frameworks */,
-				A2A3280B1B89764000BD2B4A /* CoreGraphics.framework in Frameworks */,
-				A245D3EE1B898111000CBCB6 /* Fabric.framework in Frameworks */,
-				A245D3F11B898111000CBCB6 /* TwitterCore.framework in Frameworks */,
-				A2A3281D1B8977E700BD2B4A /* Bolts.framework in Frameworks */,
-				A2A328091B89763400BD2B4A /* CFNetwork.framework in Frameworks */,
-				A2A3281E1B8977E700BD2B4A /* Parse.framework in Frameworks */,
-				A2A328071B89762B00BD2B4A /* AudioToolbox.framework in Frameworks */,
 				8142895F3A32C342C89240E8 /* Pods_HermitFinal.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A260D7C31B8928C4007184F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29D8F738924D905E974ED093 /* Pods_HermitFinalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				A260D7B31B8928C4007184F7 /* HermitFinal */,
-				A260D7C91B8928C4007184F7 /* HermitFinalTests */,
 				A260D7B21B8928C4007184F7 /* Products */,
 				A2A3281A1B89769600BD2B4A /* Frameworks */,
 				75445048E4A4A084C50A7E07 /* Pods */,
@@ -231,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				A260D7B11B8928C4007184F7 /* HermitFinal.app */,
-				A260D7C61B8928C4007184F7 /* HermitFinalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,23 +181,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A260D7C91B8928C4007184F7 /* HermitFinalTests */ = {
-			isa = PBXGroup;
-			children = (
-				A260D7CC1B8928C4007184F7 /* HermitFinalTests.swift */,
-				A260D7CA1B8928C4007184F7 /* Supporting Files */,
-			);
-			path = HermitFinalTests;
-			sourceTree = "<group>";
-		};
-		A260D7CA1B8928C4007184F7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A260D7CB1B8928C4007184F7 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		A260D7D81B892910007184F7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,23 +196,6 @@
 		A2A3281A1B89769600BD2B4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A25B4A901B898E5F00478DFD /* MapKit.framework */,
-				A245D3EA1B898111000CBCB6 /* Fabric.framework */,
-				A245D3EB1B898111000CBCB6 /* DigitsKit.framework */,
-				A245D3EC1B898111000CBCB6 /* DigitsKitResources.bundle */,
-				A245D3ED1B898111000CBCB6 /* TwitterCore.framework */,
-				A2A3281B1B8977E700BD2B4A /* Bolts.framework */,
-				A2A3281C1B8977E700BD2B4A /* Parse.framework */,
-				A2A328181B89768800BD2B4A /* libsqlite3.dylib */,
-				A2A328161B89767900BD2B4A /* libz.dylib */,
-				A2A328141B89767000BD2B4A /* SystemConfiguration.framework */,
-				A2A328121B89766500BD2B4A /* StoreKit.framework */,
-				A2A328101B89765D00BD2B4A /* Security.framework */,
-				A2A3280E1B89765600BD2B4A /* QuartzCore.framework */,
-				A2A3280C1B89764800BD2B4A /* CoreLocation.framework */,
-				A2A3280A1B89764000BD2B4A /* CoreGraphics.framework */,
-				A2A328081B89763400BD2B4A /* CFNetwork.framework */,
-				A2A328061B89762B00BD2B4A /* AudioToolbox.framework */,
 				0BC4F1D9DB94B15E1B0C855D /* Pods_HermitFinal.framework */,
 				D54C36F5A0E4C8778F3888AA /* Pods_HermitFinalTests.framework */,
 			);
@@ -322,7 +213,6 @@
 				A260D7AD1B8928C4007184F7 /* Sources */,
 				A260D7AE1B8928C4007184F7 /* Frameworks */,
 				A260D7AF1B8928C4007184F7 /* Resources */,
-				A245D3E91B8980C1000CBCB6 /* ShellScript */,
 				F805E36CD2A65EDD7A7650F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -333,25 +223,6 @@
 			productName = HermitFinal;
 			productReference = A260D7B11B8928C4007184F7 /* HermitFinal.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A260D7C51B8928C4007184F7 /* HermitFinalTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A260D7D31B8928C4007184F7 /* Build configuration list for PBXNativeTarget "HermitFinalTests" */;
-			buildPhases = (
-				15C140CA08B428EBD74C370D /* [CP] Check Pods Manifest.lock */,
-				A260D7C21B8928C4007184F7 /* Sources */,
-				A260D7C31B8928C4007184F7 /* Frameworks */,
-				A260D7C41B8928C4007184F7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A260D7C81B8928C4007184F7 /* PBXTargetDependency */,
-			);
-			name = HermitFinalTests;
-			productName = HermitFinalTests;
-			productReference = A260D7C61B8928C4007184F7 /* HermitFinalTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -365,16 +236,13 @@
 				TargetAttributes = {
 					A260D7B01B8928C4007184F7 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = ZEK99X5745;
+						DevelopmentTeam = 6F983ZW9E9;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
 						};
-					};
-					A260D7C51B8928C4007184F7 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = A260D7B01B8928C4007184F7;
 					};
 				};
 			};
@@ -393,7 +261,6 @@
 			projectRoot = "";
 			targets = (
 				A260D7B01B8928C4007184F7 /* HermitFinal */,
-				A260D7C51B8928C4007184F7 /* HermitFinalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -409,43 +276,13 @@
 				A25B4A971B89905F00478DFD /* SourceSansPro-Light.otf in Resources */,
 				A25B4A991B89905F00478DFD /* SourceSansPro-Semibold.otf in Resources */,
 				A260D7C11B8928C4007184F7 /* LaunchScreen.xib in Resources */,
-				A245D3F01B898111000CBCB6 /* DigitsKitResources.bundle in Resources */,
 				A260D7BE1B8928C4007184F7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A260D7C41B8928C4007184F7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15C140CA08B428EBD74C370D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HermitFinalTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6048F9887E5EA5514D6EEEFF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,25 +305,10 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A245D3E91B8980C1000CBCB6 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run f39cb2f3769ac4141a2a0c0b625b3f36e6f9af12 ebc449fab99f7e4f49a8889c626f3f1dc7c23b0397b45d19ec3b2ad50f406f05";
-		};
 		F805E36CD2A65EDD7A7650F4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HermitFinal/Pods-HermitFinal-frameworks.sh",
@@ -497,8 +319,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
@@ -539,23 +359,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A260D7C21B8928C4007184F7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A260D7CD1B8928C4007184F7 /* HermitFinalTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A260D7C81B8928C4007184F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A260D7B01B8928C4007184F7 /* HermitFinal */;
-			targetProxy = A260D7C71B8928C4007184F7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A260D7BA1B8928C4007184F7 /* Main.storyboard */ = {
@@ -665,8 +469,11 @@
 			baseConfigurationReference = 4BCA4882994CF2D3304829AF /* Pods-HermitFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F983ZW9E9;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -675,9 +482,11 @@
 				INFOPLIST_FILE = HermitFinal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aKANJ.Hermit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -686,8 +495,11 @@
 			baseConfigurationReference = 6B993F9F823E1EECF990B5B8 /* Pods-HermitFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F983ZW9E9;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -696,45 +508,11 @@
 				INFOPLIST_FILE = HermitFinal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aKANJ.Hermit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = "";
-			};
-			name = Release;
-		};
-		A260D7D41B8928C4007184F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BD8AAEB79A9172F1D6F6C3B /* Pods-HermitFinalTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HermitFinalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HermitFinal.app/HermitFinal";
-			};
-			name = Debug;
-		};
-		A260D7D51B8928C4007184F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 962C41277B4393C72794C6B0 /* Pods-HermitFinalTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HermitFinalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HermitFinal.app/HermitFinal";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -755,15 +533,6 @@
 			buildConfigurations = (
 				A260D7D11B8928C4007184F7 /* Debug */,
 				A260D7D21B8928C4007184F7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A260D7D31B8928C4007184F7 /* Build configuration list for PBXNativeTarget "HermitFinalTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A260D7D41B8928C4007184F7 /* Debug */,
-				A260D7D51B8928C4007184F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

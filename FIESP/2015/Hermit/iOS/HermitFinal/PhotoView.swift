@@ -18,27 +18,27 @@ class PhotoView: UIView {
     var lineWidth: CGFloat = 5
     var circleColor: UIColor = UIColor(red: 38/255.0, green: 99/255.0, blue: 159/255.0, alpha: 1.0)
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         placeholderPhoto = UIImage(named: "photoPlaceholder")!
         super.init(coder: aDecoder)
-        self.backgroundColor = UIColor.clearColor()
+        self.backgroundColor = UIColor.clear
     }
     
-    override func drawRect(rect: CGRect) {
+    override func draw(_ rect: CGRect) {
         //// General Declarations
         let context = UIGraphicsGetCurrentContext()
-        let rect = CGRectMake(lineWidth/2.0, lineWidth/2.0, bounds.width - lineWidth, bounds.height - lineWidth)
+        let rect = CGRect(x: lineWidth/2.0, y: lineWidth/2.0, width: bounds.width - lineWidth, height: bounds.height - lineWidth)
         //// ProfessionalImageView Drawing
-        var path = UIBezierPath(ovalInRect: rect)
-        CGContextSaveGState(context)
+        var path = UIBezierPath(ovalIn: rect)
+        context!.saveGState()
         path.addClip()
         if image == nil {
-            placeholderPhoto.drawInRect(rect)
+            placeholderPhoto.draw(in: rect)
         }
         else {
-            image!.drawInRect(rect)
+            image!.draw(in: rect)
         }
-        CGContextRestoreGState(context)
+        context!.restoreGState()
         circleColor.setStroke()
         path.lineWidth = lineWidth
         path.stroke()

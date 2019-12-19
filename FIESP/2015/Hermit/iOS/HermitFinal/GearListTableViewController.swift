@@ -18,14 +18,12 @@ class GearListTableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let backItem = UIBarButtonItem(title: "Usuários", style: UIBarButtonItem.Style.Plain, target: nil, action: nil)
+        let backItem = UIBarButtonItem(title: "Usuários", style: .plain, target: nil, action: nil)
         navigationItem.backBarButtonItem = backItem
     }
     
     // MARK: - Table view data source
-    
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
     
@@ -34,64 +32,57 @@ class GearListTableViewController: UITableViewController {
         return 1
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("card", forIndexPath: indexPath as IndexPath) as! GearListTableViewCell
-        var gear = swimmers[0].gears
-        var gearObjectLast = gear?.removeLast()
-        cell.gearImageView?.image = gearObjectLast?.image
-        cell.title.text = gearObjectLast?.title
-        cell.subtitle.text = gearObjectLast?.subtitle
-        cell.descriptionTextView.text = gearObjectLast?.description!
-        cell.price.text = gearObjectLast?.price
-        
-        var evaluation = gearObjectLast!.evaluationSum! / gearObjectLast!.evaluationQuantity!
-        
-        switch evaluation {
-        case 1:
-            cell.star0.image = UIImage(named: "Star-Filled")
-        case 2:
-            cell.star0.image = UIImage(named: "Star-Filled")
-            cell.star1.image = UIImage(named: "Star-Filled")
-        case 3:
-            cell.star0.image = UIImage(named: "Star-Filled")
-            cell.star1.image = UIImage(named: "Star-Filled")
-            cell.star2.image = UIImage(named: "Star-Filled")
-        case 4:
-            cell.star0.image = UIImage(named: "Star-Filled")
-            cell.star1.image = UIImage(named: "Star-Filled")
-            cell.star2.image = UIImage(named: "Star-Filled")
-            cell.star3.image = UIImage(named: "Star-Filled")
-            
-        case 5:
-            cell.star0.image = UIImage(named: "Star-Filled")
-            cell.star1.image = UIImage(named: "Star-Filled")
-            cell.star2.image = UIImage(named: "Star-Filled")
-            cell.star3.image = UIImage(named: "Star-Filled")
-            cell.star4.image = UIImage(named: "Star-Filled")
-        default:
-            break
-        }
-
-        
-        return cell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+          let cell = tableView.dequeueReusableCell(withIdentifier: "card", for: indexPath as IndexPath) as! GearListTableViewCell
+              var gear = swimmers[0].gears
+              var gearObjectLast = gear?.removeLast()
+              cell.gearImageView?.image = gearObjectLast?.image
+              cell.title.text = gearObjectLast?.title
+              cell.subtitle.text = gearObjectLast?.subtitle
+              cell.descriptionTextView.text = gearObjectLast?.description!
+              cell.price.text = gearObjectLast?.price
+              
+              var evaluation = gearObjectLast!.evaluationSum! / gearObjectLast!.evaluationQuantity!
+              
+              switch evaluation {
+              case 1:
+                  cell.star0.image = UIImage(named: "Star-Filled")
+              case 2:
+                  cell.star0.image = UIImage(named: "Star-Filled")
+                  cell.star1.image = UIImage(named: "Star-Filled")
+              case 3:
+                  cell.star0.image = UIImage(named: "Star-Filled")
+                  cell.star1.image = UIImage(named: "Star-Filled")
+                  cell.star2.image = UIImage(named: "Star-Filled")
+              case 4:
+                  cell.star0.image = UIImage(named: "Star-Filled")
+                  cell.star1.image = UIImage(named: "Star-Filled")
+                  cell.star2.image = UIImage(named: "Star-Filled")
+                  cell.star3.image = UIImage(named: "Star-Filled")
+                  
+              case 5:
+                  cell.star0.image = UIImage(named: "Star-Filled")
+                  cell.star1.image = UIImage(named: "Star-Filled")
+                  cell.star2.image = UIImage(named: "Star-Filled")
+                  cell.star3.image = UIImage(named: "Star-Filled")
+                  cell.star4.image = UIImage(named: "Star-Filled")
+              default:
+                  break
+              }
+              return cell
     }
     
     
     // MARK: - Table view delegate
-    
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 420
     }
     
-    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 10
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        view.tintColor = UIColor.white
     }
-    
-    override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
-        view.tintColor = UIColor.whiteColor()
-    }
-
 }

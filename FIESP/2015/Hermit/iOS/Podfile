@@ -6,12 +6,8 @@ target 'HermitFinal' do
   use_frameworks!
 pod 'SwiftyJSON'
 pod 'Parse'
+pod 'Fabric'
 pod 'Firebase'
-  # Pods for HermitFinal
-
-  target 'HermitFinalTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+pod 'TwitterCore'
 
 end

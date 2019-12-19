@@ -16,11 +16,11 @@ class HomeTableViewController: UITableViewController {
         
         var nav = self.navigationController?.navigationBar
         // 2
-        nav?.barStyle = UIBarStyle.Black
-        nav?.tintColor = UIColor.yellowColor()
+        nav?.barStyle = UIBarStyle.black
+        nav?.tintColor = UIColor.yellow
         // 3
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
-        imageView.contentMode = .ScaleAspectFit
+        imageView.contentMode = .scaleAspectFit
         // 4
         let image = UIImage(named: "Logo")
         imageView.image = image
@@ -28,32 +28,32 @@ class HomeTableViewController: UITableViewController {
         navigationItem.titleView = imageView
         
         
-        let notFirstLaunch = NSUserDefaults.standardUserDefaults().boolForKey("notFirstLaunch")
+        let notFirstLaunch = UserDefaults.standard.bool(forKey: "notFirstLaunch")
         if !notFirstLaunch  {
-            let vc = storyboard?.instantiateViewControllerWithIdentifier("firstLaunchViewController") as! FirstLaunchViewController
-            presentViewController(vc, animated: true, completion: nil)
-            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "notFirstLaunch")
+            let vc = storyboard?.instantiateViewController(withIdentifier: "firstLaunchViewController") as! FirstLaunchViewController
+            present(vc, animated: true, completion: nil)
+            UserDefaults.standard.set(true, forKey: "notFirstLaunch")
         }
         
         var query = PFQuery(className: "Place")
         places = []
         var fetchResults = [PFObject]()
         
-        query.findObjectsInBackgroundWithBlock({(NSArray objects, NSError error) in
+        query.findObjectsInBackground(block: {(objects, error) in
             if (error != nil) {
-                println("error " + error!.localizedDescription)
+                print("error " + error!.localizedDescription)
             }
             else {
                 fetchResults = (objects as! [PFObject])
                 for fetchResult in fetchResults {
-                    var place: Place = Place(name: fetchResult.objectForKey("name") as! String)
-                    (fetchResult.objectForKey("image") as! PFFile).getDataInBackgroundWithBlock({(NSData result, NSError error) in
-                    if (error != nil) {
-                    println("error " + error!.localizedDescription)
-                    }
-                    else {
-                    place.image = UIImage(data: result!)
-                    }
+                    var place: Place = Place(name: fetchResult.object(forKey: "name") as! String)
+                    (fetchResult.object(forKey: "image") as! PFFileObject).getDataInBackground(block: {(result, error) in
+                        if (error != nil) {
+                            print("error " + error!.localizedDescription)
+                        }
+                        else {
+                            place.image = UIImage(data: result!)
+                        }
                         self.tableView.reloadData()
                     })
                     places.append(place)
@@ -62,52 +62,47 @@ class HomeTableViewController: UITableViewController {
         })
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        var vc = segue.destinationViewController as! GearTypeTableViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! GearTypeTableViewController
         vc.title = currentPlaceSelected.name!
-        
     }
-
-// MARK: - Table view data source
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+    
+    // MARK: - Table view data source
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return places.count
     }
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("card", forIndexPath: indexPath) as! HomeTableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "card", for: indexPath as IndexPath) as! HomeTableViewCell
         
         if (places[indexPath.section].image != nil) {
-            cell.putCardImage(places[indexPath.section].image!)
+            cell.putCardImage(cardImage: places[indexPath.section].image!)
         }
         return cell
     }
-
     
-// MARK: - Table view delegate
-
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    
+    // MARK: - Table view delegate
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 250
     }
     
-    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 1
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        var cell = tableView.cellForRowAtIndexPath(indexPath) as! HomeTableViewCell
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        _ = tableView.cellForRow(at: indexPath as IndexPath) as! HomeTableViewCell
         currentPlaceSelectedIndex = indexPath.section
-        
-        performSegueWithIdentifier("pushGearType", sender: nil)
+        performSegue(withIdentifier: "pushGearType", sender: nil)
     }
     
-    override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
-        view.tintColor = UIColor.whiteColor()
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        view.tintColor = UIColor.white
     }
 }

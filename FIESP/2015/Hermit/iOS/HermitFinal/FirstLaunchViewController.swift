@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import DigitsKit
 
 class FirstLaunchViewController: UIViewController {
     
@@ -18,13 +17,10 @@ class FirstLaunchViewController: UIViewController {
     }
 
     @IBAction func createAccountButtonPressed(sender: UIButton) {
-        let digits = Digits.sharedInstance()
-        digits.authenticateWithCompletion { (session, error) in
-            // Inspect session/error objects
-        }
     }
+    
     @IBAction func appTourButtonPressed(sender: UIButton) {
         
-        dismissViewControllerAnimated(true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
 }
