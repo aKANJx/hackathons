@@ -215,6 +215,8 @@ OMNI Channel for markets and smart ads (based on user's consumer habits).
 ## SPGameJam 2015
 ### StayHome
 
+Stay Home is a 2D pixel art adventure game about a kid who just wants to stay home and play games all day. Explore the house and find a way to convince your parents not to take you on a boring trip.
+
 ![Preview](StayHome/Preview.gif)
 
 [Project](https://github.com/aKANJx/StayHome)
